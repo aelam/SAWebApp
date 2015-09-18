@@ -1,0 +1,6 @@
+framework module Pods_EMWebApp_Example {
+  umbrella header "Pods-EMWebApp_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/utils/UINavigationBar+EMGradient.h

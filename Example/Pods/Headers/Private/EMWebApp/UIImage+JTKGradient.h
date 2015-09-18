@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Vendor/UIImageGradient/UIImage+JTKGradient.h

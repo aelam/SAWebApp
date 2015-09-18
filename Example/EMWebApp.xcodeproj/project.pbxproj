@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		948333091BAC15D400CF68B9 /* EMWebDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948333081BAC15D400CF68B9 /* EMWebDemoViewController.m */; };
 		EC822A7C3F894D3772F66230 /* Pods_EMWebApp_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9026AA4FF2303DAB3E82C49D /* Pods_EMWebApp_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -41,7 +42,7 @@
 		3F499251CE4635F54D0442BC /* EMWebApp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EMWebApp.podspec; path = ../EMWebApp.podspec; sourceTree = "<group>"; };
 		54BDF281D347D30DE42C5E4D /* Pods-EMWebApp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMWebApp_Tests/Pods-EMWebApp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A4B25F067556454EAE85EFF /* Pods-EMWebApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMWebApp_Example/Pods-EMWebApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* EMWebApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = EMWebApp.app; path = EMWebApp_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* EMWebApp_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMWebApp_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,7 @@
 		6003F5A5195388D20070C39A /* EMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* EMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = EMWebApp_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* EMWebApp_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMWebApp_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -63,6 +64,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9026AA4FF2303DAB3E82C49D /* Pods_EMWebApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMWebApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9081CEDDFF5E3163B804CB5F /* Pods-EMWebApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMWebApp_Tests/Pods-EMWebApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		948333071BAC15D400CF68B9 /* EMWebDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMWebDemoViewController.h; sourceTree = "<group>"; };
+		948333081BAC15D400CF68B9 /* EMWebDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMWebDemoViewController.m; sourceTree = "<group>"; };
 		C2D5822BD723A32748884A82 /* Pods-EMWebApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMWebApp_Example/Pods-EMWebApp_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6231DC677A6BE83BC07B4BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,8 +111,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* EMWebApp.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* EMWebApp_Example.app */,
+				6003F5AE195388D20070C39A /* EMWebApp_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +138,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* EMViewController.h */,
 				6003F5A6195388D20070C39A /* EMViewController.m */,
+				948333071BAC15D400CF68B9 /* EMWebDemoViewController.h */,
+				948333081BAC15D400CF68B9 /* EMWebDemoViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +218,7 @@
 			);
 			name = EMWebApp_Example;
 			productName = EMWebApp;
-			productReference = 6003F58A195388D20070C39A /* EMWebApp.app */;
+			productReference = 6003F58A195388D20070C39A /* EMWebApp_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* EMWebApp_Tests */ = {
@@ -234,7 +239,7 @@
 			);
 			name = EMWebApp_Tests;
 			productName = EMWebAppTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* EMWebApp_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -390,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948333091BAC15D400CF68B9 /* EMWebDemoViewController.m in Sources */,
 				6003F59E195388D20070C39A /* EMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* EMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

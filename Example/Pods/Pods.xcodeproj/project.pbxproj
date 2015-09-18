@@ -1,0 +1,2129 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028700D13A0D50A773CBB7C0 /* SAWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F03EB87E14648CF9A1D5B62 /* SAWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		052FAB653EB868C0A3230D73 /* UIWebView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = B922004EB12EB19AAA07C935 /* UIWebView+Ext.m */; };
+		05878F6059A8DED6B079E473 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2A66ECFA8BA8F80EAD3DD8 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-dummy.m */; };
+		05B3398527E79E9D9A74807F /* UIWebView+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = B66906928A33238767A031F0 /* UIWebView+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		084E52EE4BBA3B366792B973 /* NSURL+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F28CFA63024457992ED21380 /* NSURL+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		089DD0257C6609C3219287C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		091A35AD0C82CB0FDB5D55CF /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A28DAA81B94F9FF78E865E8 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09D1927A1B0D2611265CB516 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DA399DCA91E977B07411D4 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE7A82E2F60D062204CA844 /* JSActionModuleStock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8873612F79EF706A95C113E0 /* JSActionModuleStock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113ECA2CFB9E5ECD3B97E082 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B568B390EFA53DACA67D48B6 /* UIColor+HexString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17895D954052678ED3C28CE3 /* NSURL+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F28CFA63024457992ED21380 /* NSURL+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181A5498FFFD092194602E7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC4A2AAABBBDDCEE134705 /* UIKit.framework */; };
+		196A5AD3966E2A062D24080B /* Pods-EMWebApp_Example-WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C9EC1F4A30C05A4FD98A9 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-dummy.m */; };
+		1D94B42C508B88AD6259B204 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B568B390EFA53DACA67D48B6 /* UIColor+HexString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E75C2A41BA2B2AB46518DD0 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A28DAA81B94F9FF78E865E8 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		208617A6C82639D544E12622 /* SAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5BAE98CB4B70CFE214DE2 /* SAWebViewController.m */; };
+		21D07EB63CC84592438EBAA6 /* Pods-EMWebApp_Tests-EMWebApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAADE29B8E9B64CA19854287 /* Pods-EMWebApp_Tests-EMWebApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23663FB88932776B33A70AC2 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A69D2C9798622CB2B218E0 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		27556EFE8468517E969E835E /* JSActionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD419E003B5017888C8D82 /* JSActionModule.m */; };
+		28F455268A7CE61CE81CEA55 /* UIColor_HexString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36110DD7E29C01F6743ABAD /* UIColor_HexString.framework */; };
+		2C94FF2AFFC2906317649D18 /* SAWebViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = CF752103246DF545B2525862 /* SAWebViewController+Ext.m */; };
+		2D26E521DF400B795D4AB6C9 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A69D2C9798622CB2B218E0 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		314377AC6530CD1C51BEBC89 /* UIWebView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = B922004EB12EB19AAA07C935 /* UIWebView+Ext.m */; };
+		321F3D5B838EA88B2FC5A5EC /* Pods-EMWebApp_Tests-EMWebApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D3701DDED25D115F37C6D7 /* Pods-EMWebApp_Tests-EMWebApp-dummy.m */; };
+		33258A245BB292A8D835731F /* JSActionModuleBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A0760D363881775262EE4F /* JSActionModuleBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34925C31ADA636AFFF06B5D5 /* JSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E8920CD6B0C1D5CFB9C37A /* JSAction.m */; };
+		34F91230D01EF120F4AEB146 /* JSActionModuleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8077A1DD44237F9BB82AC568 /* JSActionModuleBase.m */; };
+		35A78E51C9A9E70278CE7249 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED88C743812C7E28EF9B455 /* SwiftSupport.swift */; };
+		3616AC9B34820B718F91AB95 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A9A2BDABFAAB01F7597906 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		381320A46564972420D91DEC /* SAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5BAE98CB4B70CFE214DE2 /* SAWebViewController.m */; };
+		398C6ACEEB4B9FA570CA8D69 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC0B37FAB7FC04BF1A900B3 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF302F5B83B7B8E3FBF4753 /* UIImage+JTKGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0358814AB95164AA7408F9 /* UIImage+JTKGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FCD1CCD654136EB90D18870 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = A87D886A51E24B43A05719DE /* UIImage+Compare.m */; };
+		423C0B0AD8D3237E6568EEB8 /* Pods-EMWebApp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56ABE27B3C4A01351CA29BDC /* Pods-EMWebApp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		425BAF589BC4F131CA0D1917 /* JSActionModuleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 374A42A622120CD51CA42CE1 /* JSActionModuleLoader.m */; };
+		43A2C9E49DFA4B51B89BCBA7 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46110E245B804DCE11A9C4E8 /* FBSnapshotTestController.m */; };
+		48A59BC056608F2E75319405 /* NSURL+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507AB956F4E1CCFF4EC5D45 /* NSURL+Extensions.m */; };
+		4ADBF7AE296052C0405CBFAD /* JSActionModuleStock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8873612F79EF706A95C113E0 /* JSActionModuleStock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF3F6CCF9214856C9A444B1 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F14B7066DC3F834D981C9D /* UIImage+Diff.m */; };
+		4E3526411D3935B7722007F3 /* UIViewController+BarColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 633ACFED00A95EC1D5C78078 /* UIViewController+BarColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F5B4A0BBE8DA3A94AE882A0 /* JSActionModuleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 41571BBB7FB2338CF71C99DF /* JSActionModuleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54C58E78205C63A8FD1EB560 /* JSActionModuleBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A0760D363881775262EE4F /* JSActionModuleBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5522D2F4A38CCA094FA1E0DC /* UIImage+JTKGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7ED19BED72E4E1C3F5B0E /* UIImage+JTKGradient.m */; };
+		553DC07CC0C0F758B5BFED4D /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E97FD8F37A5F30FA5B3591E7 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5720A89DD5FE62A5FCB9CF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC4A2AAABBBDDCEE134705 /* UIKit.framework */; };
+		5A96EFE8B4F0695D0575D57C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		5FF90C881665D105C82CCFF9 /* JSActionModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F288F64C5DA2C24DFD08A0 /* JSActionModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61DD8F75DBF0BC0D14403D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		644CCF12404FEB75421EA785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		670E6F3C715BD0602C867ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		671537D3D89EA098969F69C9 /* WebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16358D298DCB7C5EB8A4050F /* WebViewJavascriptBridge.framework */; };
+		677D3A8861EAF29078A595ED /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31C6CD9A4264AA27B3CBE14D /* WebViewJavascriptBridge.js.txt */; };
+		6A14DA2D61A804F8784D03D1 /* UIViewController+BarColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 633ACFED00A95EC1D5C78078 /* UIViewController+BarColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B9248B5C842D5ACA45F9B25 /* UIImage+JTKGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7ED19BED72E4E1C3F5B0E /* UIImage+JTKGradient.m */; };
+		6BFE97B229E9BF54B55F7DD2 /* UIViewController+BarColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE61F4336372B000A5E335C6 /* UIViewController+BarColor.m */; };
+		6CCE8CF1072CAE2AA9B68651 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31C6CD9A4264AA27B3CBE14D /* WebViewJavascriptBridge.js.txt */; };
+		789F3D047AEAE6BA45A9F2F8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4532FDE3D4251DA1CF79E84A /* README.md */; };
+		7999D1E35290909C2B07A41A /* JSActionModuleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 41571BBB7FB2338CF71C99DF /* JSActionModuleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEAC41DDD0249E781610B39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC4A2AAABBBDDCEE134705 /* UIKit.framework */; };
+		7C941CE331BF60D463FCDF37 /* Pods-EMWebApp_Example-UIColor-HexString-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB7A71D3D5A585A78A4F78E /* Pods-EMWebApp_Example-UIColor-HexString-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84CDA03C347893FF67DF7057 /* JSActionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD419E003B5017888C8D82 /* JSActionModule.m */; };
+		8A46022F0079BCE461026283 /* JSActionModuleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 374A42A622120CD51CA42CE1 /* JSActionModuleLoader.m */; };
+		8D9CCA3641C418AF97FA7195 /* JSActionModuleStock.m in Sources */ = {isa = PBXBuildFile; fileRef = B680C5D68CAD65ACF8FC7351 /* JSActionModuleStock.m */; };
+		8FA6BD7C325C1F14596B69B9 /* Pods-EMWebApp_Tests-UIColor-HexString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF24FC7AD8F846338C9C4EF9 /* Pods-EMWebApp_Tests-UIColor-HexString-dummy.m */; };
+		960EA80660E704D7DD1F750A /* SAWebViewController+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E5BB2CAA9E2E12787873F8 /* SAWebViewController+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		985789F507527C0656C95476 /* JSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E8920CD6B0C1D5CFB9C37A /* JSAction.m */; };
+		986245F145F75C78EF500173 /* JSActionModuleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8077A1DD44237F9BB82AC568 /* JSActionModuleBase.m */; };
+		9ABE1A92962455F550A26E01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		9B0610922600FBA30E9AB9B3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4532FDE3D4251DA1CF79E84A /* README.md */; };
+		9F8357A9C6B16BD38881BA59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		A0050F7E59C22EA6C5287CAB /* JSAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE1899F30FB1EC83787E49D /* JSAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A330C5104ED25EDBE8E94001 /* UIViewController+BarColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE61F4336372B000A5E335C6 /* UIViewController+BarColor.m */; };
+		A56F9ABC1D6453C49FFCCE44 /* Pods-EMWebApp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62177E0222874DC08BC3ACC1 /* Pods-EMWebApp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A89B2254B66EBBBE402295DC /* Pods-EMWebApp_Example-UIColor-HexString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB701F636C006F385257FD /* Pods-EMWebApp_Example-UIColor-HexString-dummy.m */; };
+		ABBC0B19CF183BE278D67D5D /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 575539BB45240A12A522678B /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC4FAB3554BC948A6304EA9A /* Pods-EMWebApp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E04AEF22F652B7D1D999AE91 /* Pods-EMWebApp_Example-dummy.m */; };
+		ACD30CEC8C3E635BB45FA98D /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BED5258BB2B843339F90D1 /* UIImage+Snapshot.m */; };
+		AD08CC93A169357879B8E1ED /* Pods-EMWebApp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298D403F6C41FB34236A4B4 /* Pods-EMWebApp_Tests-dummy.m */; };
+		AE61BD22E49E97C81D2324CD /* JSActionModuleStock.m in Sources */ = {isa = PBXBuildFile; fileRef = B680C5D68CAD65ACF8FC7351 /* JSActionModuleStock.m */; };
+		AF95A81EA4CBE9B42D6ACC9A /* UIColor_HexString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36110DD7E29C01F6743ABAD /* UIColor_HexString.framework */; };
+		B47258FBE0845E5553878FBA /* Pods-EMWebApp_Example-WebViewJavascriptBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4023717E649BBCC308C96BA /* Pods-EMWebApp_Example-WebViewJavascriptBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4933EEED4FD1E401E9DA743 /* UINavigationBar+EMGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 363EB9A3C51A98DB9BFC2453 /* UINavigationBar+EMGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B56E44AD4428A434D1AD0041 /* Pods-EMWebApp_Example-EMWebApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0E50BD0AADE1B576225AC /* Pods-EMWebApp_Example-EMWebApp-dummy.m */; };
+		B7DE22377E2631CDB86DBDFD /* SAWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F03EB87E14648CF9A1D5B62 /* SAWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E83A552B36108DB7E3E756 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = D57BE4284A64582A37EBA3A7 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B955DEFB277931413FE5783C /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F6CA7ACF05AAA8FD070DA7 /* FBSnapshotTestCase.m */; };
+		C2923D222A2F906A5BB4CFD5 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = B987D3B1E84CC1DA286008A7 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C379B78FEF1B625D6A8E82F6 /* EMWebApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A2BFF6BF91B654745105111 /* EMWebApp.bundle */; };
+		C60D242FDB09676656392AFB /* WebViewJavascriptBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16358D298DCB7C5EB8A4050F /* WebViewJavascriptBridge.framework */; };
+		C818CCCA9F38C6D19E0AA357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		C81C03474227BE696711184F /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F8420AB9153F49EF712AC8 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9456190B497FC872E57757D /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = D57BE4284A64582A37EBA3A7 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C95E286267005CB09DFA7A60 /* UIWebView+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = B66906928A33238767A031F0 /* UIWebView+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCEBBA30A5D745DC72937FBC /* NSURL+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0507AB956F4E1CCFF4EC5D45 /* NSURL+Extensions.m */; };
+		D1528314084996C1B5216925 /* UIImage+JTKGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0358814AB95164AA7408F9 /* UIImage+JTKGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1E2D345A998D84F98FCF32F /* Pods-EMWebApp_Tests-UIColor-HexString-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72069997340D7B08F517F69 /* Pods-EMWebApp_Tests-UIColor-HexString-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D54D16E27CD39A6F1105EDA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242AD52265D9EA541C992D57 /* XCTest.framework */; };
+		DB370C5F20D063A93F32E19F /* Pods-EMWebApp_Example-EMWebApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9BD93202D3BD5BAF0C89BE /* Pods-EMWebApp_Example-EMWebApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC600E1A5B93280BF072BDC /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0572EF4BC8D16324A6EA25 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-dummy.m */; };
+		DF7FB27F308B2202A35B6A5C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BECB499471BEC164B551BB /* FBSnapshotTestCasePlatform.m */; };
+		E1CA7D072A9A02D281C75928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC4A2AAABBBDDCEE134705 /* UIKit.framework */; };
+		E2475E61CF473F0BFDB1EA29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA607CF8CA3968410D0B4A36 /* Foundation.framework */; };
+		E4471EBCBB876020D0A1CBD9 /* UINavigationBar+EMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B36FF8D87D3835125F0A97 /* UINavigationBar+EMGradient.m */; };
+		E5D41C2EC047A69FBE8AFC69 /* SAWebViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = CF752103246DF545B2525862 /* SAWebViewController+Ext.m */; };
+		E8AF45D03E136D33FBB2A05A /* EMWebApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4645F39F1B459CE768548F8 /* EMWebApp.bundle */; };
+		EE0A362216D88407976B5821 /* SAWebViewController+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E5BB2CAA9E2E12787873F8 /* SAWebViewController+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE0EACA86D97E23F43684E0C /* JSActionModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F288F64C5DA2C24DFD08A0 /* JSActionModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F51CCEEE7A600CDB2BA0D241 /* UINavigationBar+EMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B36FF8D87D3835125F0A97 /* UINavigationBar+EMGradient.m */; };
+		F6054D5300546E80A8886D0A /* JSAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE1899F30FB1EC83787E49D /* JSAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB493E804A227B417E1B37B0 /* UINavigationBar+EMGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 363EB9A3C51A98DB9BFC2453 /* UINavigationBar+EMGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFB74A21B1A0B31366E27111 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 616D7F40387455E2DE8D5A96 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D76EE470AA1BF914236A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6516150A87CE1C52B7C6DD87;
+			remoteInfo = "Pods-EMWebApp_Example-WebViewJavascriptBridge";
+		};
+		0B6207DB49EA9F52A667A366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4473B1E5C9D6C641D87E85CA;
+			remoteInfo = "Pods-EMWebApp_Tests-FBSnapshotTestCase";
+		};
+		1A1F41D851D5A1070E8C0B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9945EAD0BD3C7DCF3C57D34B;
+			remoteInfo = "Pods-EMWebApp_Tests-EMWebApp";
+		};
+		2EBE7E6136F5798272DFBBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68CAD1A3D99AB31BE17ECF9;
+			remoteInfo = "Pods-EMWebApp_Tests-EMWebApp-EMWebApp";
+		};
+		3C1BAC9C6E6065D43DF6B8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5484BB323D2D06FDDBEC82F1;
+			remoteInfo = "Pods-EMWebApp_Example-UIColor-HexString";
+		};
+		608D13476F6BEEB83AE572C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB5F4D90F0F656E29885B70;
+			remoteInfo = "Pods-EMWebApp_Example-EMWebApp";
+		};
+		654220358D701762189F8EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85CEFFA307C18348E49CFB54;
+			remoteInfo = "Pods-EMWebApp_Tests-WebViewJavascriptBridge";
+		};
+		69F16D6744EBE79B3C135D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35ADBEA6F4ADC308BB0C83F7;
+			remoteInfo = "Pods-EMWebApp_Tests-UIColor-HexString";
+		};
+		6B4BA08392BA1FDF30842BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D46C2C5941152EE94DB0D7;
+			remoteInfo = "Pods-EMWebApp_Example-EMWebApp-EMWebApp";
+		};
+		8BA69BDBAA4E4DEE7423B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85CEFFA307C18348E49CFB54;
+			remoteInfo = "Pods-EMWebApp_Tests-WebViewJavascriptBridge";
+		};
+		9005D70E4F06D5B5B0EE4758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35ADBEA6F4ADC308BB0C83F7;
+			remoteInfo = "Pods-EMWebApp_Tests-UIColor-HexString";
+		};
+		A0DCFCC61C2209ACB9F7CF7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5484BB323D2D06FDDBEC82F1;
+			remoteInfo = "Pods-EMWebApp_Example-UIColor-HexString";
+		};
+		C3124965DCB69D654A902E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB660F4566BCA7623032B1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6516150A87CE1C52B7C6DD87;
+			remoteInfo = "Pods-EMWebApp_Example-WebViewJavascriptBridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04102D5C43E151B93E0531D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-EMWebApp_Tests-EMWebApp/Info.plist"; sourceTree = "<group>"; };
+		0507AB956F4E1CCFF4EC5D45 /* NSURL+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extensions.m"; sourceTree = "<group>"; };
+		05D5F169042901F51EDE62B4 /* Pods-EMWebApp_Tests-UIColor-HexString-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests-UIColor-HexString-Private.xcconfig"; path = "../Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString-Private.xcconfig"; sourceTree = "<group>"; };
+		0699DF8ACB838F7D1B577428 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		08BB701F636C006F385257FD /* Pods-EMWebApp_Example-UIColor-HexString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMWebApp_Example-UIColor-HexString-dummy.m"; sourceTree = "<group>"; };
+		0954109ECB616E8D08C914F1 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge-prefix.pch"; path = "../Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		09A0760D363881775262EE4F /* JSActionModuleBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleBase.h; sourceTree = "<group>"; };
+		0B9BD93202D3BD5BAF0C89BE /* Pods-EMWebApp_Example-EMWebApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Example-EMWebApp-umbrella.h"; sourceTree = "<group>"; };
+		0CDE09ACE8784E46FCAF5F2B /* UIColor_HexString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_HexString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D302749EF66D30D07E69B89 /* Pods-EMWebApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example.release.xcconfig"; sourceTree = "<group>"; };
+		12BF7CAAA0E3588971355FBB /* Pods-EMWebApp_Tests-EMWebApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-EMWebApp_Tests-EMWebApp.modulemap"; path = "../Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp.modulemap"; sourceTree = "<group>"; };
+		1315CFC01AB2D6C0635774C2 /* EMWebApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMWebApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B47AB7A571A45335D0458C /* Pods-EMWebApp_Tests-UIColor-HexString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-EMWebApp_Tests-UIColor-HexString-prefix.pch"; path = "../Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString-prefix.pch"; sourceTree = "<group>"; };
+		16358D298DCB7C5EB8A4050F /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D3701DDED25D115F37C6D7 /* Pods-EMWebApp_Tests-EMWebApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-EMWebApp_Tests-EMWebApp-dummy.m"; path = "../Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp-dummy.m"; sourceTree = "<group>"; };
+		1CF0A1ECB145AD80EC998F01 /* Pods_EMWebApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMWebApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED4B2B8618734F25F676216 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge.xcconfig"; path = "../Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge.xcconfig"; sourceTree = "<group>"; };
+		1ED7ED19BED72E4E1C3F5B0E /* UIImage+JTKGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTKGradient.m"; sourceTree = "<group>"; };
+		234052F2C9AE4AB3878D83E4 /* Pods-EMWebApp_Example-WebViewJavascriptBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EMWebApp_Example-WebViewJavascriptBridge.modulemap"; sourceTree = "<group>"; };
+		238B6930506DAA83F7DFF922 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D385AC0AFDD6BEB79BB690 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242AD52265D9EA541C992D57 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		242CDD9C502AC5BD77B28DF6 /* Pods_EMWebApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMWebApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F288F64C5DA2C24DFD08A0 /* JSActionModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModule.h; sourceTree = "<group>"; };
+		26716C0E1210F96ADD3076DA /* Pods-EMWebApp_Example-UIColor-HexString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example-UIColor-HexString.xcconfig"; sourceTree = "<group>"; };
+		26D0DCB85BE379D9557AEA7F /* Pods-EMWebApp_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMWebApp_Example-resources.sh"; sourceTree = "<group>"; };
+		280F074AE43F2588DAA431B8 /* Pods-EMWebApp_Example-WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example-WebViewJavascriptBridge.xcconfig"; sourceTree = "<group>"; };
+		2B7E4076ADB26B05977F7961 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge.modulemap"; path = "../Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge.modulemap"; sourceTree = "<group>"; };
+		312FF101F46946BD11F0D268 /* Pods-EMWebApp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMWebApp_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		31C6CD9A4264AA27B3CBE14D /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebViewJavascriptBridge.js.txt; path = WebViewJavascriptBridge/WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		3298D403F6C41FB34236A4B4 /* Pods-EMWebApp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMWebApp_Tests-dummy.m"; sourceTree = "<group>"; };
+		33FD4ABB1352CADAF4B63ED0 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example-WebViewJavascriptBridge-Private.xcconfig"; sourceTree = "<group>"; };
+		363EB9A3C51A98DB9BFC2453 /* UINavigationBar+EMGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+EMGradient.h"; sourceTree = "<group>"; };
+		374A42A622120CD51CA42CE1 /* JSActionModuleLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleLoader.m; sourceTree = "<group>"; };
+		3BCE74BFFB7AA93741B56C0B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3C58F0162125909FC51A694D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41571BBB7FB2338CF71C99DF /* JSActionModuleLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleLoader.h; sourceTree = "<group>"; };
+		42C2586668968632D315B303 /* Pods-EMWebApp_Example-UIColor-HexString.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EMWebApp_Example-UIColor-HexString.modulemap"; sourceTree = "<group>"; };
+		4532FDE3D4251DA1CF79E84A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45B36FF8D87D3835125F0A97 /* UINavigationBar+EMGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+EMGradient.m"; sourceTree = "<group>"; };
+		46110E245B804DCE11A9C4E8 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		46A9A2BDABFAAB01F7597906 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		48E5BB2CAA9E2E12787873F8 /* SAWebViewController+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAWebViewController+Ext.h"; sourceTree = "<group>"; };
+		4FF5BAE98CB4B70CFE214DE2 /* SAWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAWebViewController.m; sourceTree = "<group>"; };
+		56ABE27B3C4A01351CA29BDC /* Pods-EMWebApp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Tests-umbrella.h"; sourceTree = "<group>"; };
+		575539BB45240A12A522678B /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		57BED5258BB2B843339F90D1 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		59A69D2C9798622CB2B218E0 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		5A2BFF6BF91B654745105111 /* EMWebApp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMWebApp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF2AB05B8D0F7608754DF19 /* Pods-EMWebApp_Example-EMWebApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Example-EMWebApp-prefix.pch"; sourceTree = "<group>"; };
+		616D7F40387455E2DE8D5A96 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		6177060F2385695A88546C05 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F8420AB9153F49EF712AC8 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge-umbrella.h"; path = "../Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge-umbrella.h"; sourceTree = "<group>"; };
+		62177E0222874DC08BC3ACC1 /* Pods-EMWebApp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Example-umbrella.h"; sourceTree = "<group>"; };
+		62F6CA7ACF05AAA8FD070DA7 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		633ACFED00A95EC1D5C78078 /* UIViewController+BarColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarColor.h"; sourceTree = "<group>"; };
+		63BECB499471BEC164B551BB /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6A61D97C7AC937E805BA2DCB /* Pods-EMWebApp_Example-EMWebApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EMWebApp_Example-EMWebApp.modulemap"; sourceTree = "<group>"; };
+		6DE275B43986C9F24F222605 /* Pods-EMWebApp_Tests-EMWebApp-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests-EMWebApp-Private.xcconfig"; path = "../Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp-Private.xcconfig"; sourceTree = "<group>"; };
+		6F03EB87E14648CF9A1D5B62 /* SAWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAWebViewController.h; sourceTree = "<group>"; };
+		6F61AC4BD46D3A7BFCDE344E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-EMWebApp_Tests-UIColor-HexString/Info.plist"; sourceTree = "<group>"; };
+		6FC0B37FAB7FC04BF1A900B3 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		7682D1CA3B9AEF30DD445C97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BBA4AF33653EF4CCAD4D15 /* Pods-EMWebApp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMWebApp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7ED88C743812C7E28EF9B455 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		8077A1DD44237F9BB82AC568 /* JSActionModuleBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleBase.m; sourceTree = "<group>"; };
+		8349F47E571C2B7FC534ECCD /* Pods-EMWebApp_Example-EMWebApp-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example-EMWebApp-Private.xcconfig"; sourceTree = "<group>"; };
+		83ECEDBBE5D074BEA34EFD51 /* EMWebApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMWebApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8565FC966DE028A310BC1BD5 /* UIColor_HexString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_HexString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8873612F79EF706A95C113E0 /* JSActionModuleStock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleStock.h; sourceTree = "<group>"; };
+		8A28DAA81B94F9FF78E865E8 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		93DA399DCA91E977B07411D4 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Tests-FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		94D3801AC0D364F1BF88D65E /* Pods-EMWebApp_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EMWebApp_Example.modulemap"; sourceTree = "<group>"; };
+		978F0FA5849729F77DD2762E /* Pods-EMWebApp_Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		98FA6749B77109BC62F6C8F9 /* Pods-EMWebApp_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Tests-environment.h"; sourceTree = "<group>"; };
+		9CC0E50BD0AADE1B576225AC /* Pods-EMWebApp_Example-EMWebApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMWebApp_Example-EMWebApp-dummy.m"; sourceTree = "<group>"; };
+		9E76D6BAFE779FF6232C1D2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17C0203C98591996974C1D6 /* Pods-EMWebApp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMWebApp_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A4FDEFE69ACC6B77A6E8A4A7 /* Pods-EMWebApp_Tests-EMWebApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests-EMWebApp.xcconfig"; path = "../Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp.xcconfig"; sourceTree = "<group>"; };
+		A7CD419E003B5017888C8D82 /* JSActionModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModule.m; sourceTree = "<group>"; };
+		A87D886A51E24B43A05719DE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		A9F95EFA63F756A7C308BDCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-EMWebApp_Tests-WebViewJavascriptBridge/Info.plist"; sourceTree = "<group>"; };
+		AC0572EF4BC8D16324A6EA25 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge-dummy.m"; path = "../Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+		AD0358814AB95164AA7408F9 /* UIImage+JTKGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTKGradient.h"; sourceTree = "<group>"; };
+		B201A2745D907B989C16A67E /* Pods-EMWebApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4E09E2DAE77A51B3D65049B /* Pods-EMWebApp_Tests-FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EMWebApp_Tests-FBSnapshotTestCase.modulemap"; sourceTree = "<group>"; };
+		B5043212856E5B94B525CBA0 /* Pods-EMWebApp_Example-UIColor-HexString-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example-UIColor-HexString-Private.xcconfig"; sourceTree = "<group>"; };
+		B568B390EFA53DACA67D48B6 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		B66906928A33238767A031F0 /* UIWebView+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Ext.h"; sourceTree = "<group>"; };
+		B680C5D68CAD65ACF8FC7351 /* JSActionModuleStock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleStock.m; sourceTree = "<group>"; };
+		B7F14B7066DC3F834D981C9D /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		B922004EB12EB19AAA07C935 /* UIWebView+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Ext.m"; sourceTree = "<group>"; };
+		B987D3B1E84CC1DA286008A7 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		BA2A66ECFA8BA8F80EAD3DD8 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMWebApp_Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		BBB71B7E67C8D624469F4C63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1C2DA2D81DB2F1311D5FA6 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Example-WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		BE8B4FA40D5FFBE1360999A3 /* Pods-EMWebApp_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Example-environment.h"; sourceTree = "<group>"; };
+		BF95609CA7FE82A222200C64 /* Pods-EMWebApp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4645F39F1B459CE768548F8 /* EMWebApp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMWebApp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C629E624DFC37BD3B5E6C331 /* Pods-EMWebApp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMWebApp_Tests-resources.sh"; sourceTree = "<group>"; };
+		C99C9EC1F4A30C05A4FD98A9 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMWebApp_Example-WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+		CF24FC7AD8F846338C9C4EF9 /* Pods-EMWebApp_Tests-UIColor-HexString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-EMWebApp_Tests-UIColor-HexString-dummy.m"; path = "../Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString-dummy.m"; sourceTree = "<group>"; };
+		CF752103246DF545B2525862 /* SAWebViewController+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAWebViewController+Ext.m"; sourceTree = "<group>"; };
+		D57BE4284A64582A37EBA3A7 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		D5E1D51DBE3B2BE7EC13343F /* Pods-EMWebApp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMWebApp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D883AE56EA7C67454FECB96D /* Pods-EMWebApp_Tests-UIColor-HexString.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-EMWebApp_Tests-UIColor-HexString.modulemap"; path = "../Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString.modulemap"; sourceTree = "<group>"; };
+		DA69B121EC932725859F76A0 /* Pods-EMWebApp_Example-UIColor-HexString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Example-UIColor-HexString-prefix.pch"; sourceTree = "<group>"; };
+		DFAC4A2AAABBBDDCEE134705 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E04AEF22F652B7D1D999AE91 /* Pods-EMWebApp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMWebApp_Example-dummy.m"; sourceTree = "<group>"; };
+		E2D3E1FD5D1CFC4E2AE9BE4E /* Pods-EMWebApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E36110DD7E29C01F6743ABAD /* UIColor_HexString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_HexString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E369C799162D4DE6D6AADFEA /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge-Private.xcconfig"; path = "../Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge-Private.xcconfig"; sourceTree = "<group>"; };
+		E507D0B2B2C438F915283939 /* Pods-EMWebApp_Example-EMWebApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example-EMWebApp.xcconfig"; sourceTree = "<group>"; };
+		E72069997340D7B08F517F69 /* Pods-EMWebApp_Tests-UIColor-HexString-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-EMWebApp_Tests-UIColor-HexString-umbrella.h"; path = "../Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString-umbrella.h"; sourceTree = "<group>"; };
+		E7536E172E48C6C3BEBB23D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8AD2CF057F103A2A8262CC6 /* Pods-EMWebApp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMWebApp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8E8920CD6B0C1D5CFB9C37A /* JSAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSAction.m; sourceTree = "<group>"; };
+		E906E503EC2A75DEF8E96E17 /* Pods-EMWebApp_Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		E97FD8F37A5F30FA5B3591E7 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		EAADE29B8E9B64CA19854287 /* Pods-EMWebApp_Tests-EMWebApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-EMWebApp_Tests-EMWebApp-umbrella.h"; path = "../Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp-umbrella.h"; sourceTree = "<group>"; };
+		EAB7A71D3D5A585A78A4F78E /* Pods-EMWebApp_Example-UIColor-HexString-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Example-UIColor-HexString-umbrella.h"; sourceTree = "<group>"; };
+		EC947900A6CEC965351EB7DC /* Pods-EMWebApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EMWebApp_Tests.modulemap"; sourceTree = "<group>"; };
+		EE61F4336372B000A5E335C6 /* UIViewController+BarColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarColor.m"; sourceTree = "<group>"; };
+		F14B24AC47FD1991AE0DFB03 /* Pods-EMWebApp_Tests-UIColor-HexString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests-UIColor-HexString.xcconfig"; path = "../Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString.xcconfig"; sourceTree = "<group>"; };
+		F28CFA63024457992ED21380 /* NSURL+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extensions.h"; sourceTree = "<group>"; };
+		F4023717E649BBCC308C96BA /* Pods-EMWebApp_Example-WebViewJavascriptBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EMWebApp_Example-WebViewJavascriptBridge-umbrella.h"; sourceTree = "<group>"; };
+		FA607CF8CA3968410D0B4A36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA912B3B9DE64120832E621C /* Pods-EMWebApp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMWebApp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAE1899F30FB1EC83787E49D /* JSAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSAction.h; sourceTree = "<group>"; };
+		FD0C3E7E11F2FC1B2FEB0A35 /* Pods-EMWebApp_Tests-EMWebApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-EMWebApp_Tests-EMWebApp-prefix.pch"; path = "../Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp-prefix.pch"; sourceTree = "<group>"; };
+		FD1087965C8AC9DA113FF5A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FAA85AE31C88C03F5A5796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C818CCCA9F38C6D19E0AA357 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2F73575F519BF1AE32FE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2475E61CF473F0BFDB1EA29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B29D94F6C460E264A83545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DD8F75DBF0BC0D14403D6A /* Foundation.framework in Frameworks */,
+				AF95A81EA4CBE9B42D6ACC9A /* UIColor_HexString.framework in Frameworks */,
+				5720A89DD5FE62A5FCB9CF4D /* UIKit.framework in Frameworks */,
+				671537D3D89EA098969F69C9 /* WebViewJavascriptBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D4C531764686F52A688937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E6F3C715BD0602C867ECB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75436C88F28BD9EDFB4ECF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A96EFE8B4F0695D0575D57C /* Foundation.framework in Frameworks */,
+				28F455268A7CE61CE81CEA55 /* UIColor_HexString.framework in Frameworks */,
+				E1CA7D072A9A02D281C75928 /* UIKit.framework in Frameworks */,
+				C60D242FDB09676656392AFB /* WebViewJavascriptBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F484FBFDC81876A9CB106F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8357A9C6B16BD38881BA59 /* Foundation.framework in Frameworks */,
+				7AEAC41DDD0249E781610B39 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D70F4D56A49D036168B3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABE1A92962455F550A26E01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC662E889720B460254F3C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CCF12404FEB75421EA785 /* Foundation.framework in Frameworks */,
+				D54D16E27CD39A6F1105EDA7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CC49B511E0F962C4508E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9C9289E1DD8704FF774D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B6703495BCE346BF3B3CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089DD0257C6609C3219287C0 /* Foundation.framework in Frameworks */,
+				181A5498FFFD092194602E7B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A452D0C7C6F95AAD457DD4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F28CFA63024457992ED21380 /* NSURL+Extensions.h */,
+				0507AB956F4E1CCFF4EC5D45 /* NSURL+Extensions.m */,
+				363EB9A3C51A98DB9BFC2453 /* UINavigationBar+EMGradient.h */,
+				45B36FF8D87D3835125F0A97 /* UINavigationBar+EMGradient.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		0D7FBE2D4308C08059F35408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F6442A303B7E2B1999EBB2A /* FBSnapshotTestCase */,
+				354C2487975DB3602EB229DA /* UIColor-HexString */,
+				F91C6A753D3562A7450881FD /* WebViewJavascriptBridge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0EA1516ECC4078C28610B6F1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A0E07E53A2B47D95507A5ED6 /* UIImageGradient */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		1136978FFD78086891EE9A3B /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				7ED88C743812C7E28EF9B455 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		20F7F38DB79F4907C98D141D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA607CF8CA3968410D0B4A36 /* Foundation.framework */,
+				DFAC4A2AAABBBDDCEE134705 /* UIKit.framework */,
+				242AD52265D9EA541C992D57 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2C73FA9CF3D11FFD8815233B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				80B85C46CC8D95929F24DBAF /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		2F6442A303B7E2B1999EBB2A /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				B4321FA4363BB3BC4DA7BAB6 /* Core */,
+				8A42C1E6940D42C35FECBFDA /* Support Files */,
+				1136978FFD78086891EE9A3B /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		354C2487975DB3602EB229DA /* UIColor-HexString */ = {
+			isa = PBXGroup;
+			children = (
+				D57BE4284A64582A37EBA3A7 /* UIColor+HexString.h */,
+				B568B390EFA53DACA67D48B6 /* UIColor+HexString.m */,
+				CF776E640A1340874D65CBF8 /* Support Files */,
+			);
+			path = "UIColor-HexString";
+			sourceTree = "<group>";
+		};
+		3D004CAE208F30FCD9C442AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36110DD7E29C01F6743ABAD /* UIColor_HexString.framework */,
+				16358D298DCB7C5EB8A4050F /* WebViewJavascriptBridge.framework */,
+				20F7F38DB79F4907C98D141D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4230C88288A8CA0789837D62 = {
+			isa = PBXGroup;
+			children = (
+				3BCE74BFFB7AA93741B56C0B /* Podfile */,
+				78830989B10ADA3238B96BCA /* Development Pods */,
+				3D004CAE208F30FCD9C442AC /* Frameworks */,
+				0D7FBE2D4308C08059F35408 /* Pods */,
+				ACC8EA6EB587BFDAB5901A10 /* Products */,
+				76B0D46FAB27588C2972FBD5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		740BD39BC38048B34B808280 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E76D6BAFE779FF6232C1D2D /* Info.plist */,
+				04102D5C43E151B93E0531D5 /* Info.plist */,
+				6A61D97C7AC937E805BA2DCB /* Pods-EMWebApp_Example-EMWebApp.modulemap */,
+				E507D0B2B2C438F915283939 /* Pods-EMWebApp_Example-EMWebApp.xcconfig */,
+				8349F47E571C2B7FC534ECCD /* Pods-EMWebApp_Example-EMWebApp-Private.xcconfig */,
+				9CC0E50BD0AADE1B576225AC /* Pods-EMWebApp_Example-EMWebApp-dummy.m */,
+				5FF2AB05B8D0F7608754DF19 /* Pods-EMWebApp_Example-EMWebApp-prefix.pch */,
+				0B9BD93202D3BD5BAF0C89BE /* Pods-EMWebApp_Example-EMWebApp-umbrella.h */,
+				12BF7CAAA0E3588971355FBB /* Pods-EMWebApp_Tests-EMWebApp.modulemap */,
+				A4FDEFE69ACC6B77A6E8A4A7 /* Pods-EMWebApp_Tests-EMWebApp.xcconfig */,
+				6DE275B43986C9F24F222605 /* Pods-EMWebApp_Tests-EMWebApp-Private.xcconfig */,
+				19D3701DDED25D115F37C6D7 /* Pods-EMWebApp_Tests-EMWebApp-dummy.m */,
+				FD0C3E7E11F2FC1B2FEB0A35 /* Pods-EMWebApp_Tests-EMWebApp-prefix.pch */,
+				EAADE29B8E9B64CA19854287 /* Pods-EMWebApp_Tests-EMWebApp-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-EMWebApp_Example-EMWebApp";
+			sourceTree = "<group>";
+		};
+		76B0D46FAB27588C2972FBD5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC603D22B006D0994C81BCA0 /* Pods-EMWebApp_Example */,
+				A59EC6F74BD80FD5FC9F5FF5 /* Pods-EMWebApp_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78830989B10ADA3238B96BCA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AA9F2110DFE8F5327AC99F /* EMWebApp */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7D6166893280D1F227FCC0AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7682D1CA3B9AEF30DD445C97 /* Info.plist */,
+				A9F95EFA63F756A7C308BDCC /* Info.plist */,
+				234052F2C9AE4AB3878D83E4 /* Pods-EMWebApp_Example-WebViewJavascriptBridge.modulemap */,
+				280F074AE43F2588DAA431B8 /* Pods-EMWebApp_Example-WebViewJavascriptBridge.xcconfig */,
+				33FD4ABB1352CADAF4B63ED0 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-Private.xcconfig */,
+				C99C9EC1F4A30C05A4FD98A9 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-dummy.m */,
+				BD1C2DA2D81DB2F1311D5FA6 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-prefix.pch */,
+				F4023717E649BBCC308C96BA /* Pods-EMWebApp_Example-WebViewJavascriptBridge-umbrella.h */,
+				2B7E4076ADB26B05977F7961 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge.modulemap */,
+				1ED4B2B8618734F25F676216 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge.xcconfig */,
+				E369C799162D4DE6D6AADFEA /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-Private.xcconfig */,
+				AC0572EF4BC8D16324A6EA25 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-dummy.m */,
+				0954109ECB616E8D08C914F1 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-prefix.pch */,
+				61F8420AB9153F49EF712AC8 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EMWebApp_Example-WebViewJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		80B85C46CC8D95929F24DBAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1899F30FB1EC83787E49D /* JSAction.h */,
+				E8E8920CD6B0C1D5CFB9C37A /* JSAction.m */,
+				24F288F64C5DA2C24DFD08A0 /* JSActionModule.h */,
+				A7CD419E003B5017888C8D82 /* JSActionModule.m */,
+				09A0760D363881775262EE4F /* JSActionModuleBase.h */,
+				8077A1DD44237F9BB82AC568 /* JSActionModuleBase.m */,
+				41571BBB7FB2338CF71C99DF /* JSActionModuleLoader.h */,
+				374A42A622120CD51CA42CE1 /* JSActionModuleLoader.m */,
+				8873612F79EF706A95C113E0 /* JSActionModuleStock.h */,
+				B680C5D68CAD65ACF8FC7351 /* JSActionModuleStock.m */,
+				6F03EB87E14648CF9A1D5B62 /* SAWebViewController.h */,
+				4FF5BAE98CB4B70CFE214DE2 /* SAWebViewController.m */,
+				48E5BB2CAA9E2E12787873F8 /* SAWebViewController+Ext.h */,
+				CF752103246DF545B2525862 /* SAWebViewController+Ext.m */,
+				633ACFED00A95EC1D5C78078 /* UIViewController+BarColor.h */,
+				EE61F4336372B000A5E335C6 /* UIViewController+BarColor.m */,
+				B66906928A33238767A031F0 /* UIWebView+Ext.h */,
+				B922004EB12EB19AAA07C935 /* UIWebView+Ext.m */,
+				0EA1516ECC4078C28610B6F1 /* Vendor */,
+				08A452D0C7C6F95AAD457DD4 /* utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8A42C1E6940D42C35FECBFDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1087965C8AC9DA113FF5A5 /* Info.plist */,
+				B4E09E2DAE77A51B3D65049B /* Pods-EMWebApp_Tests-FBSnapshotTestCase.modulemap */,
+				E906E503EC2A75DEF8E96E17 /* Pods-EMWebApp_Tests-FBSnapshotTestCase.xcconfig */,
+				978F0FA5849729F77DD2762E /* Pods-EMWebApp_Tests-FBSnapshotTestCase-Private.xcconfig */,
+				BA2A66ECFA8BA8F80EAD3DD8 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-dummy.m */,
+				0699DF8ACB838F7D1B577428 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-prefix.pch */,
+				93DA399DCA91E977B07411D4 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EMWebApp_Tests-FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		A0E07E53A2B47D95507A5ED6 /* UIImageGradient */ = {
+			isa = PBXGroup;
+			children = (
+				4532FDE3D4251DA1CF79E84A /* README.md */,
+				AD0358814AB95164AA7408F9 /* UIImage+JTKGradient.h */,
+				1ED7ED19BED72E4E1C3F5B0E /* UIImage+JTKGradient.m */,
+			);
+			path = UIImageGradient;
+			sourceTree = "<group>";
+		};
+		A59EC6F74BD80FD5FC9F5FF5 /* Pods-EMWebApp_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BBB71B7E67C8D624469F4C63 /* Info.plist */,
+				EC947900A6CEC965351EB7DC /* Pods-EMWebApp_Tests.modulemap */,
+				FA912B3B9DE64120832E621C /* Pods-EMWebApp_Tests-acknowledgements.markdown */,
+				D5E1D51DBE3B2BE7EC13343F /* Pods-EMWebApp_Tests-acknowledgements.plist */,
+				3298D403F6C41FB34236A4B4 /* Pods-EMWebApp_Tests-dummy.m */,
+				98FA6749B77109BC62F6C8F9 /* Pods-EMWebApp_Tests-environment.h */,
+				312FF101F46946BD11F0D268 /* Pods-EMWebApp_Tests-frameworks.sh */,
+				C629E624DFC37BD3B5E6C331 /* Pods-EMWebApp_Tests-resources.sh */,
+				56ABE27B3C4A01351CA29BDC /* Pods-EMWebApp_Tests-umbrella.h */,
+				BF95609CA7FE82A222200C64 /* Pods-EMWebApp_Tests.debug.xcconfig */,
+				B201A2745D907B989C16A67E /* Pods-EMWebApp_Tests.release.xcconfig */,
+			);
+			name = "Pods-EMWebApp_Tests";
+			path = "Target Support Files/Pods-EMWebApp_Tests";
+			sourceTree = "<group>";
+		};
+		ACC8EA6EB587BFDAB5901A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2BFF6BF91B654745105111 /* EMWebApp.bundle */,
+				C4645F39F1B459CE768548F8 /* EMWebApp.bundle */,
+				1315CFC01AB2D6C0635774C2 /* EMWebApp.framework */,
+				83ECEDBBE5D074BEA34EFD51 /* EMWebApp.framework */,
+				3C58F0162125909FC51A694D /* FBSnapshotTestCase.framework */,
+				1CF0A1ECB145AD80EC998F01 /* Pods_EMWebApp_Example.framework */,
+				242CDD9C502AC5BD77B28DF6 /* Pods_EMWebApp_Tests.framework */,
+				8565FC966DE028A310BC1BD5 /* UIColor_HexString.framework */,
+				0CDE09ACE8784E46FCAF5F2B /* UIColor_HexString.framework */,
+				238B6930506DAA83F7DFF922 /* WebViewJavascriptBridge.framework */,
+				6177060F2385695A88546C05 /* WebViewJavascriptBridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4321FA4363BB3BC4DA7BAB6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B987D3B1E84CC1DA286008A7 /* FBSnapshotTestCase.h */,
+				62F6CA7ACF05AAA8FD070DA7 /* FBSnapshotTestCase.m */,
+				616D7F40387455E2DE8D5A96 /* FBSnapshotTestCasePlatform.h */,
+				63BECB499471BEC164B551BB /* FBSnapshotTestCasePlatform.m */,
+				575539BB45240A12A522678B /* FBSnapshotTestController.h */,
+				46110E245B804DCE11A9C4E8 /* FBSnapshotTestController.m */,
+				6FC0B37FAB7FC04BF1A900B3 /* UIImage+Compare.h */,
+				A87D886A51E24B43A05719DE /* UIImage+Compare.m */,
+				E97FD8F37A5F30FA5B3591E7 /* UIImage+Diff.h */,
+				B7F14B7066DC3F834D981C9D /* UIImage+Diff.m */,
+				46A9A2BDABFAAB01F7597906 /* UIImage+Snapshot.h */,
+				57BED5258BB2B843339F90D1 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF776E640A1340874D65CBF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23D385AC0AFDD6BEB79BB690 /* Info.plist */,
+				6F61AC4BD46D3A7BFCDE344E /* Info.plist */,
+				42C2586668968632D315B303 /* Pods-EMWebApp_Example-UIColor-HexString.modulemap */,
+				26716C0E1210F96ADD3076DA /* Pods-EMWebApp_Example-UIColor-HexString.xcconfig */,
+				B5043212856E5B94B525CBA0 /* Pods-EMWebApp_Example-UIColor-HexString-Private.xcconfig */,
+				08BB701F636C006F385257FD /* Pods-EMWebApp_Example-UIColor-HexString-dummy.m */,
+				DA69B121EC932725859F76A0 /* Pods-EMWebApp_Example-UIColor-HexString-prefix.pch */,
+				EAB7A71D3D5A585A78A4F78E /* Pods-EMWebApp_Example-UIColor-HexString-umbrella.h */,
+				D883AE56EA7C67454FECB96D /* Pods-EMWebApp_Tests-UIColor-HexString.modulemap */,
+				F14B24AC47FD1991AE0DFB03 /* Pods-EMWebApp_Tests-UIColor-HexString.xcconfig */,
+				05D5F169042901F51EDE62B4 /* Pods-EMWebApp_Tests-UIColor-HexString-Private.xcconfig */,
+				CF24FC7AD8F846338C9C4EF9 /* Pods-EMWebApp_Tests-UIColor-HexString-dummy.m */,
+				14B47AB7A571A45335D0458C /* Pods-EMWebApp_Tests-UIColor-HexString-prefix.pch */,
+				E72069997340D7B08F517F69 /* Pods-EMWebApp_Tests-UIColor-HexString-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EMWebApp_Example-UIColor-HexString";
+			sourceTree = "<group>";
+		};
+		D0E01A46EB2E6AC2CCA1C33F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31C6CD9A4264AA27B3CBE14D /* WebViewJavascriptBridge.js.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC603D22B006D0994C81BCA0 /* Pods-EMWebApp_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E7536E172E48C6C3BEBB23D0 /* Info.plist */,
+				94D3801AC0D364F1BF88D65E /* Pods-EMWebApp_Example.modulemap */,
+				E8AD2CF057F103A2A8262CC6 /* Pods-EMWebApp_Example-acknowledgements.markdown */,
+				77BBA4AF33653EF4CCAD4D15 /* Pods-EMWebApp_Example-acknowledgements.plist */,
+				E04AEF22F652B7D1D999AE91 /* Pods-EMWebApp_Example-dummy.m */,
+				BE8B4FA40D5FFBE1360999A3 /* Pods-EMWebApp_Example-environment.h */,
+				A17C0203C98591996974C1D6 /* Pods-EMWebApp_Example-frameworks.sh */,
+				26D0DCB85BE379D9557AEA7F /* Pods-EMWebApp_Example-resources.sh */,
+				62177E0222874DC08BC3ACC1 /* Pods-EMWebApp_Example-umbrella.h */,
+				E2D3E1FD5D1CFC4E2AE9BE4E /* Pods-EMWebApp_Example.debug.xcconfig */,
+				0D302749EF66D30D07E69B89 /* Pods-EMWebApp_Example.release.xcconfig */,
+			);
+			name = "Pods-EMWebApp_Example";
+			path = "Target Support Files/Pods-EMWebApp_Example";
+			sourceTree = "<group>";
+		};
+		E1AA9F2110DFE8F5327AC99F /* EMWebApp */ = {
+			isa = PBXGroup;
+			children = (
+				2C73FA9CF3D11FFD8815233B /* Pod */,
+				740BD39BC38048B34B808280 /* Support Files */,
+			);
+			name = EMWebApp;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F91C6A753D3562A7450881FD /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				8A28DAA81B94F9FF78E865E8 /* WebViewJavascriptBridge.h */,
+				59A69D2C9798622CB2B218E0 /* WebViewJavascriptBridge.m */,
+				D0E01A46EB2E6AC2CCA1C33F /* Resources */,
+				7D6166893280D1F227FCC0AF /* Support Files */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21EF175FFA6AB53F9D77ACF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C941CE331BF60D463FCDF37 /* Pods-EMWebApp_Example-UIColor-HexString-umbrella.h in Headers */,
+				B7E83A552B36108DB7E3E756 /* UIColor+HexString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5557EFD37DF8675BF23DB704 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6054D5300546E80A8886D0A /* JSAction.h in Headers */,
+				5FF90C881665D105C82CCFF9 /* JSActionModule.h in Headers */,
+				33258A245BB292A8D835731F /* JSActionModuleBase.h in Headers */,
+				4F5B4A0BBE8DA3A94AE882A0 /* JSActionModuleLoader.h in Headers */,
+				4ADBF7AE296052C0405CBFAD /* JSActionModuleStock.h in Headers */,
+				17895D954052678ED3C28CE3 /* NSURL+Extensions.h in Headers */,
+				21D07EB63CC84592438EBAA6 /* Pods-EMWebApp_Tests-EMWebApp-umbrella.h in Headers */,
+				EE0A362216D88407976B5821 /* SAWebViewController+Ext.h in Headers */,
+				B7DE22377E2631CDB86DBDFD /* SAWebViewController.h in Headers */,
+				D1528314084996C1B5216925 /* UIImage+JTKGradient.h in Headers */,
+				FB493E804A227B417E1B37B0 /* UINavigationBar+EMGradient.h in Headers */,
+				6A14DA2D61A804F8784D03D1 /* UIViewController+BarColor.h in Headers */,
+				C95E286267005CB09DFA7A60 /* UIWebView+Ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5A9D1D487A50B309F00E51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81C03474227BE696711184F /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-umbrella.h in Headers */,
+				091A35AD0C82CB0FDB5D55CF /* WebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E49021DB8146C299D6D2DC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47258FBE0845E5553878FBA /* Pods-EMWebApp_Example-WebViewJavascriptBridge-umbrella.h in Headers */,
+				1E75C2A41BA2B2AB46518DD0 /* WebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940F835400BF9BC19E4B1CA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E2D345A998D84F98FCF32F /* Pods-EMWebApp_Tests-UIColor-HexString-umbrella.h in Headers */,
+				C9456190B497FC872E57757D /* UIColor+HexString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39BB1C2287BE0873421385A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2923D222A2F906A5BB4CFD5 /* FBSnapshotTestCase.h in Headers */,
+				FFB74A21B1A0B31366E27111 /* FBSnapshotTestCasePlatform.h in Headers */,
+				ABBC0B19CF183BE278D67D5D /* FBSnapshotTestController.h in Headers */,
+				09D1927A1B0D2611265CB516 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-umbrella.h in Headers */,
+				398C6ACEEB4B9FA570CA8D69 /* UIImage+Compare.h in Headers */,
+				553DC07CC0C0F758B5BFED4D /* UIImage+Diff.h in Headers */,
+				3616AC9B34820B718F91AB95 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B688023154BD087703008F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56F9ABC1D6453C49FFCCE44 /* Pods-EMWebApp_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C87C49BD0F3CED734D2E6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423C0B0AD8D3237E6568EEB8 /* Pods-EMWebApp_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF8B0360C527A2309CC2305 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0050F7E59C22EA6C5287CAB /* JSAction.h in Headers */,
+				EE0EACA86D97E23F43684E0C /* JSActionModule.h in Headers */,
+				54C58E78205C63A8FD1EB560 /* JSActionModuleBase.h in Headers */,
+				7999D1E35290909C2B07A41A /* JSActionModuleLoader.h in Headers */,
+				0FE7A82E2F60D062204CA844 /* JSActionModuleStock.h in Headers */,
+				084E52EE4BBA3B366792B973 /* NSURL+Extensions.h in Headers */,
+				DB370C5F20D063A93F32E19F /* Pods-EMWebApp_Example-EMWebApp-umbrella.h in Headers */,
+				960EA80660E704D7DD1F750A /* SAWebViewController+Ext.h in Headers */,
+				028700D13A0D50A773CBB7C0 /* SAWebViewController.h in Headers */,
+				3AF302F5B83B7B8E3FBF4753 /* UIImage+JTKGradient.h in Headers */,
+				B4933EEED4FD1E401E9DA743 /* UINavigationBar+EMGradient.h in Headers */,
+				4E3526411D3935B7722007F3 /* UIViewController+BarColor.h in Headers */,
+				05B3398527E79E9D9A74807F /* UIWebView+Ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01D46C2C5941152EE94DB0D7 /* Pods-EMWebApp_Example-EMWebApp-EMWebApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3B0B5B585FEB40B7306EA3 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example-EMWebApp-EMWebApp" */;
+			buildPhases = (
+				285FE20A3421A5E6014D2F77 /* Sources */,
+				BA81CC49B511E0F962C4508E /* Frameworks */,
+				23F0FA86007456490D57834E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EMWebApp_Example-EMWebApp-EMWebApp";
+			productName = "Pods-EMWebApp_Example-EMWebApp-EMWebApp";
+			productReference = C4645F39F1B459CE768548F8 /* EMWebApp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		35ADBEA6F4ADC308BB0C83F7 /* Pods-EMWebApp_Tests-UIColor-HexString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FDF8B1571BD50070963C7C1 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-UIColor-HexString" */;
+			buildPhases = (
+				912993B2CDBC2655943D325A /* Sources */,
+				A1D70F4D56A49D036168B3C4 /* Frameworks */,
+				940F835400BF9BC19E4B1CA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EMWebApp_Tests-UIColor-HexString";
+			productName = "Pods-EMWebApp_Tests-UIColor-HexString";
+			productReference = 0CDE09ACE8784E46FCAF5F2B /* UIColor_HexString.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4473B1E5C9D6C641D87E85CA /* Pods-EMWebApp_Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555111DC40749833D4C28349 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				A81BBD3165960DDB3CA45B3B /* Sources */,
+				AC662E889720B460254F3C3E /* Frameworks */,
+				A39BB1C2287BE0873421385A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EMWebApp_Tests-FBSnapshotTestCase";
+			productName = "Pods-EMWebApp_Tests-FBSnapshotTestCase";
+			productReference = 3C58F0162125909FC51A694D /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5484BB323D2D06FDDBEC82F1 /* Pods-EMWebApp_Example-UIColor-HexString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5005DBB9ED4F64A096AC0D /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example-UIColor-HexString" */;
+			buildPhases = (
+				425DBAFFA8CD595E932D21F4 /* Sources */,
+				60D4C531764686F52A688937 /* Frameworks */,
+				21EF175FFA6AB53F9D77ACF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EMWebApp_Example-UIColor-HexString";
+			productName = "Pods-EMWebApp_Example-UIColor-HexString";
+			productReference = 8565FC966DE028A310BC1BD5 /* UIColor_HexString.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6516150A87CE1C52B7C6DD87 /* Pods-EMWebApp_Example-WebViewJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6330269FADD337A58719533 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example-WebViewJavascriptBridge" */;
+			buildPhases = (
+				D9344F929C4AA63E50EFBDE2 /* Sources */,
+				8F484FBFDC81876A9CB106F4 /* Frameworks */,
+				8E49021DB8146C299D6D2DC5 /* Headers */,
+				E59B695F31A87839273BC14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EMWebApp_Example-WebViewJavascriptBridge";
+			productName = "Pods-EMWebApp_Example-WebViewJavascriptBridge";
+			productReference = 6177060F2385695A88546C05 /* WebViewJavascriptBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EB5F4D90F0F656E29885B70 /* Pods-EMWebApp_Example-EMWebApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E4893D6427BC23D3F0227F /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example-EMWebApp" */;
+			buildPhases = (
+				CA0197E8DD8A2079652422E7 /* Sources */,
+				53B29D94F6C460E264A83545 /* Frameworks */,
+				7863B2B3E7E7CC3538DDD836 /* Resources */,
+				CBF8B0360C527A2309CC2305 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9F33F2BA5D5F1E6CADDD244 /* PBXTargetDependency */,
+				6A539D69F5C52979C37F5E90 /* PBXTargetDependency */,
+				777D29B527F81EA061339785 /* PBXTargetDependency */,
+			);
+			name = "Pods-EMWebApp_Example-EMWebApp";
+			productName = "Pods-EMWebApp_Example-EMWebApp";
+			productReference = 83ECEDBBE5D074BEA34EFD51 /* EMWebApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85CEFFA307C18348E49CFB54 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C33D6846FCE4F2044057C62 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-WebViewJavascriptBridge" */;
+			buildPhases = (
+				808A7FE9DDF7262C9D10B782 /* Sources */,
+				C8B6703495BCE346BF3B3CEE /* Frameworks */,
+				7D5A9D1D487A50B309F00E51 /* Headers */,
+				C7881C3FAE7EB0FE35DAF018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge";
+			productName = "Pods-EMWebApp_Tests-WebViewJavascriptBridge";
+			productReference = 238B6930506DAA83F7DFF922 /* WebViewJavascriptBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DAD89759EA5E3673CCF6F77 /* Pods-EMWebApp_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482B3E6F46B1B1648360056D /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example" */;
+			buildPhases = (
+				76021A7495E1067426650756 /* Sources */,
+				28FAA85AE31C88C03F5A5796 /* Frameworks */,
+				B688023154BD087703008F49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE92FA971CEAF9762D1F581F /* PBXTargetDependency */,
+				B5EA4244BA86B226170C62F7 /* PBXTargetDependency */,
+				281F4C3360624F04261AE827 /* PBXTargetDependency */,
+			);
+			name = "Pods-EMWebApp_Example";
+			productName = "Pods-EMWebApp_Example";
+			productReference = 1CF0A1ECB145AD80EC998F01 /* Pods_EMWebApp_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9945EAD0BD3C7DCF3C57D34B /* Pods-EMWebApp_Tests-EMWebApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D0385000EB257AE71492A5 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-EMWebApp" */;
+			buildPhases = (
+				622CC7325AAEECDF46BE926E /* Sources */,
+				75436C88F28BD9EDFB4ECF76 /* Frameworks */,
+				44E566A1D4F7E7E0B8BD2707 /* Resources */,
+				5557EFD37DF8675BF23DB704 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1185CBC903BB3A100C143DF /* PBXTargetDependency */,
+				1FC0A619544382A93401FCD4 /* PBXTargetDependency */,
+				83316512AA242DB3DCEF06A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-EMWebApp_Tests-EMWebApp";
+			productName = "Pods-EMWebApp_Tests-EMWebApp";
+			productReference = 1315CFC01AB2D6C0635774C2 /* EMWebApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C68CAD1A3D99AB31BE17ECF9 /* Pods-EMWebApp_Tests-EMWebApp-EMWebApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9985659C7B6C727FF850BFE /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-EMWebApp-EMWebApp" */;
+			buildPhases = (
+				63D2AA4228CE39874527226A /* Sources */,
+				BF9C9289E1DD8704FF774D08 /* Frameworks */,
+				8E68366116632720A4599887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EMWebApp_Tests-EMWebApp-EMWebApp";
+			productName = "Pods-EMWebApp_Tests-EMWebApp-EMWebApp";
+			productReference = 5A2BFF6BF91B654745105111 /* EMWebApp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F3062B67E883C2691D0D9319 /* Pods-EMWebApp_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E08D1976139AC38478D0AA /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests" */;
+			buildPhases = (
+				A846883C904BF6C7DCE88DFA /* Sources */,
+				3B2F73575F519BF1AE32FE84 /* Frameworks */,
+				C6C87C49BD0F3CED734D2E6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF0C549BA55DC651BF01365 /* PBXTargetDependency */,
+				81B5E7822E3DFCB6F8E54A06 /* PBXTargetDependency */,
+				87292E0EE81DA652FA6B466B /* PBXTargetDependency */,
+				7ADE7725030CEAB61112E74F /* PBXTargetDependency */,
+			);
+			name = "Pods-EMWebApp_Tests";
+			productName = "Pods-EMWebApp_Tests";
+			productReference = 242CDD9C502AC5BD77B28DF6 /* Pods_EMWebApp_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB660F4566BCA7623032B1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 519140C281E7F1D7D007876A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4230C88288A8CA0789837D62;
+			productRefGroup = ACC8EA6EB587BFDAB5901A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DAD89759EA5E3673CCF6F77 /* Pods-EMWebApp_Example */,
+				6EB5F4D90F0F656E29885B70 /* Pods-EMWebApp_Example-EMWebApp */,
+				01D46C2C5941152EE94DB0D7 /* Pods-EMWebApp_Example-EMWebApp-EMWebApp */,
+				5484BB323D2D06FDDBEC82F1 /* Pods-EMWebApp_Example-UIColor-HexString */,
+				6516150A87CE1C52B7C6DD87 /* Pods-EMWebApp_Example-WebViewJavascriptBridge */,
+				F3062B67E883C2691D0D9319 /* Pods-EMWebApp_Tests */,
+				9945EAD0BD3C7DCF3C57D34B /* Pods-EMWebApp_Tests-EMWebApp */,
+				C68CAD1A3D99AB31BE17ECF9 /* Pods-EMWebApp_Tests-EMWebApp-EMWebApp */,
+				4473B1E5C9D6C641D87E85CA /* Pods-EMWebApp_Tests-FBSnapshotTestCase */,
+				35ADBEA6F4ADC308BB0C83F7 /* Pods-EMWebApp_Tests-UIColor-HexString */,
+				85CEFFA307C18348E49CFB54 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F0FA86007456490D57834E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E566A1D4F7E7E0B8BD2707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C379B78FEF1B625D6A8E82F6 /* EMWebApp.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863B2B3E7E7CC3538DDD836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AF45D03E136D33FBB2A05A /* EMWebApp.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E68366116632720A4599887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7881C3FAE7EB0FE35DAF018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCE8CF1072CAE2AA9B68651 /* WebViewJavascriptBridge.js.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59B695F31A87839273BC14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677D3A8861EAF29078A595ED /* WebViewJavascriptBridge.js.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285FE20A3421A5E6014D2F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425DBAFFA8CD595E932D21F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89B2254B66EBBBE402295DC /* Pods-EMWebApp_Example-UIColor-HexString-dummy.m in Sources */,
+				113ECA2CFB9E5ECD3B97E082 /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622CC7325AAEECDF46BE926E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985789F507527C0656C95476 /* JSAction.m in Sources */,
+				84CDA03C347893FF67DF7057 /* JSActionModule.m in Sources */,
+				986245F145F75C78EF500173 /* JSActionModuleBase.m in Sources */,
+				8A46022F0079BCE461026283 /* JSActionModuleLoader.m in Sources */,
+				8D9CCA3641C418AF97FA7195 /* JSActionModuleStock.m in Sources */,
+				CCEBBA30A5D745DC72937FBC /* NSURL+Extensions.m in Sources */,
+				321F3D5B838EA88B2FC5A5EC /* Pods-EMWebApp_Tests-EMWebApp-dummy.m in Sources */,
+				9B0610922600FBA30E9AB9B3 /* README.md in Sources */,
+				2C94FF2AFFC2906317649D18 /* SAWebViewController+Ext.m in Sources */,
+				208617A6C82639D544E12622 /* SAWebViewController.m in Sources */,
+				5522D2F4A38CCA094FA1E0DC /* UIImage+JTKGradient.m in Sources */,
+				F51CCEEE7A600CDB2BA0D241 /* UINavigationBar+EMGradient.m in Sources */,
+				6BFE97B229E9BF54B55F7DD2 /* UIViewController+BarColor.m in Sources */,
+				314377AC6530CD1C51BEBC89 /* UIWebView+Ext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D2AA4228CE39874527226A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76021A7495E1067426650756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4FAB3554BC948A6304EA9A /* Pods-EMWebApp_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808A7FE9DDF7262C9D10B782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC600E1A5B93280BF072BDC /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-dummy.m in Sources */,
+				23663FB88932776B33A70AC2 /* WebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912993B2CDBC2655943D325A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA6BD7C325C1F14596B69B9 /* Pods-EMWebApp_Tests-UIColor-HexString-dummy.m in Sources */,
+				1D94B42C508B88AD6259B204 /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81BBD3165960DDB3CA45B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B955DEFB277931413FE5783C /* FBSnapshotTestCase.m in Sources */,
+				DF7FB27F308B2202A35B6A5C /* FBSnapshotTestCasePlatform.m in Sources */,
+				43A2C9E49DFA4B51B89BCBA7 /* FBSnapshotTestController.m in Sources */,
+				05878F6059A8DED6B079E473 /* Pods-EMWebApp_Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				35A78E51C9A9E70278CE7249 /* SwiftSupport.swift in Sources */,
+				3FCD1CCD654136EB90D18870 /* UIImage+Compare.m in Sources */,
+				4DF3F6CCF9214856C9A444B1 /* UIImage+Diff.m in Sources */,
+				ACD30CEC8C3E635BB45FA98D /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A846883C904BF6C7DCE88DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD08CC93A169357879B8E1ED /* Pods-EMWebApp_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0197E8DD8A2079652422E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34925C31ADA636AFFF06B5D5 /* JSAction.m in Sources */,
+				27556EFE8468517E969E835E /* JSActionModule.m in Sources */,
+				34F91230D01EF120F4AEB146 /* JSActionModuleBase.m in Sources */,
+				425BAF589BC4F131CA0D1917 /* JSActionModuleLoader.m in Sources */,
+				AE61BD22E49E97C81D2324CD /* JSActionModuleStock.m in Sources */,
+				48A59BC056608F2E75319405 /* NSURL+Extensions.m in Sources */,
+				B56E44AD4428A434D1AD0041 /* Pods-EMWebApp_Example-EMWebApp-dummy.m in Sources */,
+				789F3D047AEAE6BA45A9F2F8 /* README.md in Sources */,
+				E5D41C2EC047A69FBE8AFC69 /* SAWebViewController+Ext.m in Sources */,
+				381320A46564972420D91DEC /* SAWebViewController.m in Sources */,
+				6B9248B5C842D5ACA45F9B25 /* UIImage+JTKGradient.m in Sources */,
+				E4471EBCBB876020D0A1CBD9 /* UINavigationBar+EMGradient.m in Sources */,
+				A330C5104ED25EDBE8E94001 /* UIViewController+BarColor.m in Sources */,
+				052FAB653EB868C0A3230D73 /* UIWebView+Ext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9344F929C4AA63E50EFBDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196A5AD3966E2A062D24080B /* Pods-EMWebApp_Example-WebViewJavascriptBridge-dummy.m in Sources */,
+				2D26E521DF400B795D4AB6C9 /* WebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FC0A619544382A93401FCD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Tests-UIColor-HexString";
+			target = 35ADBEA6F4ADC308BB0C83F7 /* Pods-EMWebApp_Tests-UIColor-HexString */;
+			targetProxy = 69F16D6744EBE79B3C135D0A /* PBXContainerItemProxy */;
+		};
+		281F4C3360624F04261AE827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Example-WebViewJavascriptBridge";
+			target = 6516150A87CE1C52B7C6DD87 /* Pods-EMWebApp_Example-WebViewJavascriptBridge */;
+			targetProxy = C3124965DCB69D654A902E3C /* PBXContainerItemProxy */;
+		};
+		6A539D69F5C52979C37F5E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Example-UIColor-HexString";
+			target = 5484BB323D2D06FDDBEC82F1 /* Pods-EMWebApp_Example-UIColor-HexString */;
+			targetProxy = A0DCFCC61C2209ACB9F7CF7B /* PBXContainerItemProxy */;
+		};
+		777D29B527F81EA061339785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Example-WebViewJavascriptBridge";
+			target = 6516150A87CE1C52B7C6DD87 /* Pods-EMWebApp_Example-WebViewJavascriptBridge */;
+			targetProxy = 04D76EE470AA1BF914236A4C /* PBXContainerItemProxy */;
+		};
+		7ADE7725030CEAB61112E74F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge";
+			target = 85CEFFA307C18348E49CFB54 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge */;
+			targetProxy = 8BA69BDBAA4E4DEE7423B1A6 /* PBXContainerItemProxy */;
+		};
+		81B5E7822E3DFCB6F8E54A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Tests-FBSnapshotTestCase";
+			target = 4473B1E5C9D6C641D87E85CA /* Pods-EMWebApp_Tests-FBSnapshotTestCase */;
+			targetProxy = 0B6207DB49EA9F52A667A366 /* PBXContainerItemProxy */;
+		};
+		83316512AA242DB3DCEF06A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Tests-WebViewJavascriptBridge";
+			target = 85CEFFA307C18348E49CFB54 /* Pods-EMWebApp_Tests-WebViewJavascriptBridge */;
+			targetProxy = 654220358D701762189F8EBC /* PBXContainerItemProxy */;
+		};
+		87292E0EE81DA652FA6B466B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Tests-UIColor-HexString";
+			target = 35ADBEA6F4ADC308BB0C83F7 /* Pods-EMWebApp_Tests-UIColor-HexString */;
+			targetProxy = 9005D70E4F06D5B5B0EE4758 /* PBXContainerItemProxy */;
+		};
+		B5EA4244BA86B226170C62F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Example-UIColor-HexString";
+			target = 5484BB323D2D06FDDBEC82F1 /* Pods-EMWebApp_Example-UIColor-HexString */;
+			targetProxy = 3C1BAC9C6E6065D43DF6B8BC /* PBXContainerItemProxy */;
+		};
+		B9F33F2BA5D5F1E6CADDD244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Example-EMWebApp-EMWebApp";
+			target = 01D46C2C5941152EE94DB0D7 /* Pods-EMWebApp_Example-EMWebApp-EMWebApp */;
+			targetProxy = 6B4BA08392BA1FDF30842BCD /* PBXContainerItemProxy */;
+		};
+		C1185CBC903BB3A100C143DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Tests-EMWebApp-EMWebApp";
+			target = C68CAD1A3D99AB31BE17ECF9 /* Pods-EMWebApp_Tests-EMWebApp-EMWebApp */;
+			targetProxy = 2EBE7E6136F5798272DFBBC2 /* PBXContainerItemProxy */;
+		};
+		FAF0C549BA55DC651BF01365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Tests-EMWebApp";
+			target = 9945EAD0BD3C7DCF3C57D34B /* Pods-EMWebApp_Tests-EMWebApp */;
+			targetProxy = 1A1F41D851D5A1070E8C0B3B /* PBXContainerItemProxy */;
+		};
+		FE92FA971CEAF9762D1F581F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EMWebApp_Example-EMWebApp";
+			target = 6EB5F4D90F0F656E29885B70 /* Pods-EMWebApp_Example-EMWebApp */;
+			targetProxy = 608D13476F6BEEB83AE572C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		193A7E46FF5A88B8226AFFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE275B43986C9F24F222605 /* Pods-EMWebApp_Tests-EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-EMWebApp_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1A2B9D01274E30072792585B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE275B43986C9F24F222605 /* Pods-EMWebApp_Tests-EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests-EMWebApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23019EF972C2DA56537ACC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978F0FA5849729F77DD2762E /* Pods-EMWebApp_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Tests-FBSnapshotTestCase/Pods-EMWebApp_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests-FBSnapshotTestCase/Pods-EMWebApp_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		299D158040E0F94FACB18AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B201A2745D907B989C16A67E /* Pods-EMWebApp_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests/Pods-EMWebApp_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EMWebApp_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CD51C1AAA2658ED4FA3C6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE275B43986C9F24F222605 /* Pods-EMWebApp_Tests-EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-EMWebApp_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		32D148276F851148BAE4F166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8349F47E571C2B7FC534ECCD /* Pods-EMWebApp_Example-EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-EMWebApp_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		422645F535AC07849DA80B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D5F169042901F51EDE62B4 /* Pods-EMWebApp_Tests-UIColor-HexString-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests-UIColor-HexString/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_HexString;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55A4ED7476CF868E95276C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5043212856E5B94B525CBA0 /* Pods-EMWebApp_Example-UIColor-HexString-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Example-UIColor-HexString/Pods-EMWebApp_Example-UIColor-HexString-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Example-UIColor-HexString/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Example-UIColor-HexString/Pods-EMWebApp_Example-UIColor-HexString.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_HexString;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		617BAC62202FC9AC5F5E30EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8349F47E571C2B7FC534ECCD /* Pods-EMWebApp_Example-EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Example-EMWebApp/Pods-EMWebApp_Example-EMWebApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Example-EMWebApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Example-EMWebApp/Pods-EMWebApp_Example-EMWebApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6308305E97C7B6551F4418F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978F0FA5849729F77DD2762E /* Pods-EMWebApp_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Tests-FBSnapshotTestCase/Pods-EMWebApp_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests-FBSnapshotTestCase/Pods-EMWebApp_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71759D0917CBB9935BB6BAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5043212856E5B94B525CBA0 /* Pods-EMWebApp_Example-UIColor-HexString-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Example-UIColor-HexString/Pods-EMWebApp_Example-UIColor-HexString-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Example-UIColor-HexString/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Example-UIColor-HexString/Pods-EMWebApp_Example-UIColor-HexString.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_HexString;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72C358D0EC1929168ED16559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF95609CA7FE82A222200C64 /* Pods-EMWebApp_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests/Pods-EMWebApp_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EMWebApp_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D6980A8FA9C761FA25E92D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FD4ABB1352CADAF4B63ED0 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Example-WebViewJavascriptBridge/Pods-EMWebApp_Example-WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Example-WebViewJavascriptBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Example-WebViewJavascriptBridge/Pods-EMWebApp_Example-WebViewJavascriptBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A40F19B6063594E83858D971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B35D55944C80D97552F1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8349F47E571C2B7FC534ECCD /* Pods-EMWebApp_Example-EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-EMWebApp_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A9B687A6F62E82F531724717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC0858FB59DB2881C474FF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FD4ABB1352CADAF4B63ED0 /* Pods-EMWebApp_Example-WebViewJavascriptBridge-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Example-WebViewJavascriptBridge/Pods-EMWebApp_Example-WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Example-WebViewJavascriptBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Example-WebViewJavascriptBridge/Pods-EMWebApp_Example-WebViewJavascriptBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AECAF0CF21DBEE2F7D393783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D302749EF66D30D07E69B89 /* Pods-EMWebApp_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Example/Pods-EMWebApp_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EMWebApp_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3C5CFB99F0747E45C18B9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D5F169042901F51EDE62B4 /* Pods-EMWebApp_Tests-UIColor-HexString-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests-UIColor-HexString/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests-UIColor-HexString/Pods-EMWebApp_Tests-UIColor-HexString.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_HexString;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B81D26A9CE281E98BD2DE6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E369C799162D4DE6D6AADFEA /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests-WebViewJavascriptBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC2F2CEEF5EF6A0842648D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D3E1FD5D1CFC4E2AE9BE4E /* Pods-EMWebApp_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Example/Pods-EMWebApp_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EMWebApp_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E25C8175F891E678C692622D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8349F47E571C2B7FC534ECCD /* Pods-EMWebApp_Example-EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Example-EMWebApp/Pods-EMWebApp_Example-EMWebApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Example-EMWebApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Example-EMWebApp/Pods-EMWebApp_Example-EMWebApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EECE1DCC62C01062DCD69E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE275B43986C9F24F222605 /* Pods-EMWebApp_Tests-EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests-EMWebApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests-EMWebApp/Pods-EMWebApp_Tests-EMWebApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6689C2FCF83695CCDF532A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E369C799162D4DE6D6AADFEA /* Pods-EMWebApp_Tests-WebViewJavascriptBridge-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-EMWebApp_Tests-WebViewJavascriptBridge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-EMWebApp_Tests-WebViewJavascriptBridge/Pods-EMWebApp_Tests-WebViewJavascriptBridge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D0385000EB257AE71492A5 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-EMWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B9D01274E30072792585B /* Debug */,
+				EECE1DCC62C01062DCD69E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FDF8B1571BD50070963C7C1 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-UIColor-HexString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422645F535AC07849DA80B82 /* Debug */,
+				B3C5CFB99F0747E45C18B9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482B3E6F46B1B1648360056D /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2F2CEEF5EF6A0842648D99 /* Debug */,
+				AECAF0CF21DBEE2F7D393783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		519140C281E7F1D7D007876A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B687A6F62E82F531724717 /* Debug */,
+				A40F19B6063594E83858D971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555111DC40749833D4C28349 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23019EF972C2DA56537ACC5A /* Debug */,
+				6308305E97C7B6551F4418F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3B0B5B585FEB40B7306EA3 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example-EMWebApp-EMWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D148276F851148BAE4F166 /* Debug */,
+				A5B35D55944C80D97552F1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C33D6846FCE4F2044057C62 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-WebViewJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81D26A9CE281E98BD2DE6B5 /* Debug */,
+				F6689C2FCF83695CCDF532A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E4893D6427BC23D3F0227F /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example-EMWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25C8175F891E678C692622D /* Debug */,
+				617BAC62202FC9AC5F5E30EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6330269FADD337A58719533 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example-WebViewJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6980A8FA9C761FA25E92D3 /* Debug */,
+				AC0858FB59DB2881C474FF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E08D1976139AC38478D0AA /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C358D0EC1929168ED16559 /* Debug */,
+				299D158040E0F94FACB18AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5005DBB9ED4F64A096AC0D /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example-UIColor-HexString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71759D0917CBB9935BB6BAE2 /* Debug */,
+				55A4ED7476CF868E95276C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9985659C7B6C727FF850BFE /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Tests-EMWebApp-EMWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193A7E46FF5A88B8226AFFF7 /* Debug */,
+				2CD51C1AAA2658ED4FA3C6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB660F4566BCA7623032B1A3 /* Project object */;
+}

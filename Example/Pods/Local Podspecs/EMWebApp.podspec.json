@@ -1,0 +1,38 @@
+{
+  "name": "EMWebApp",
+  "version": "0.1.0",
+  "summary": "EMWebApp",
+  "description": "",
+  "homepage": "https://github.com/aelam/EMWebApp",
+  "license": "MIT",
+  "authors": {
+    "Ryan Wang": "wanglun02@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aelam/EMWebApp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EMWebApp": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "WebViewJavascriptBridge": [
+      "~> 4.1.4"
+    ],
+    "UIColor-HexString": [
+      "~> 1.1.0"
+    ]
+  }
+}
