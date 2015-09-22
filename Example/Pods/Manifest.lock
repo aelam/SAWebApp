@@ -2,17 +2,11 @@ PODS:
   - EMWebApp (0.1.0):
     - UIColor-HexString (~> 1.1.0)
     - WebViewJavascriptBridge (~> 4.1.4)
-  - FBSnapshotTestCase (2.0.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
-  - FBSnapshotTestCase/Core (2.0.4)
-  - FBSnapshotTestCase/SwiftSupport (2.0.4):
-    - FBSnapshotTestCase/Core
   - UIColor-HexString (1.1.0)
   - WebViewJavascriptBridge (4.1.4)
 
 DEPENDENCIES:
   - EMWebApp (from `../`)
-  - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   EMWebApp:
@@ -20,8 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   EMWebApp: 1657a9e587a13ea07f3d350b1365f6b4dd615f32
-  FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
   UIColor-HexString: f8a5612bd6772fed8db58ee594b42a0b2831750e
   WebViewJavascriptBridge: f10ac16f2cd3adf2b941bd79477c55a8f6e01044
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

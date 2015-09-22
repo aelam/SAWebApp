@@ -16,13 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self loadExamplePage];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)loadExamplePage {
+//    NSURL *baseURL = [NSURL fileURLWithPath:htmlPath];
+    NSURL *url = [NSURL URLWithString:@"http://192.168.19.21:8000"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:50];
+    [self.webView loadRequest:request];
+}
+
+
+//- (void)loadExtendJS {
+
 
 /*
 #pragma mark - Navigation

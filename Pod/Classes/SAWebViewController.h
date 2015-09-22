@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "JSActionModuleLoader.h"
 
+@class JSActionModuleLoader;
+
 @protocol SAWebViewController <NSObject>
 
 @property (nonatomic, readonly) UIWebView *webView;

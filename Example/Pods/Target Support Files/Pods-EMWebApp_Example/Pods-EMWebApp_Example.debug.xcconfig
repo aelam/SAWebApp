@@ -1,8 +1,5 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_FRAMEWORK_BUILD_PATH"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_FRAMEWORK_BUILD_PATH/EMWebApp.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/UIColor_HexString.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/WebViewJavascriptBridge.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "EMWebApp" -framework "UIColor_HexString" -framework "WebViewJavascriptBridge"
-OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
-PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-EMWebApp_Example
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/EMWebApp" "${PODS_ROOT}/Headers/Public/UIColor-HexString" "${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/EMWebApp" -isystem "${PODS_ROOT}/Headers/Public/UIColor-HexString" -isystem "${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"EMWebApp" -l"UIColor-HexString" -l"WebViewJavascriptBridge" -framework "Foundation" -framework "UIKit"
 PODS_ROOT = ${SRCROOT}/Pods

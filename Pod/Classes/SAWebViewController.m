@@ -8,14 +8,25 @@
 
 #import "SAWebViewController.h"
 #import "UIWebView+Ext.h"
+#import "JSActionModuleLoader.h"
+#import <WebViewJavascriptBridge/WebViewJavascriptBridge.h>
 
 #define JSActionScheme @"JSAction"
 
 @interface SAWebViewController () <UIWebViewDelegate>
 
+@property WebViewJavascriptBridge* bridge;
+
 @end
 
 @implementation SAWebViewController
+
+- (instancetype)init {
+    if (self = [super init]) {
+        self.jsLoader = [JSActionModuleLoader defaultJSActionModuleLoader];
+    }
+    return self;
+}
 
 - (void)loadView {
     self.view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -31,7 +42,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [_webView stringByEvaluatingJavaScriptFromString:@"viewWillAppear()"];
+    [self loadBridge];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -41,6 +52,25 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (void)loadBridge {
+    if(_bridge) {
+        return;
+    }
+    [WebViewJavascriptBridge enableLogging];
+    
+    _bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView webViewDelegate:self handler:^(id data, WVJBResponseCallback responseCallback) {
+        NSLog(@"ObjC received message from JS: %@", data);
+        responseCallback(@"Response for message from ObjC");
+    }];
+    
+    [_bridge registerHandler:@"testObjcCallback" handler:^(id data, WVJBResponseCallback responseCallback) {
+        NSLog(@"testObjcCallback called: %@", data);
+        responseCallback(@"Response from testObjcCallback");
+    }];
+    
+
 }
 
 // MARK: UIWebViewDelegate
@@ -63,7 +93,6 @@
     
 }
 
-//- (void)loadExtendJS {
 //    NSString *jsPath = [[NSBundle mainBundle] pathForResource:@"EMBridge" ofType:@"js"];
 //    NSString *js = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
 //    [[self.webView webViewContext] evaluateScript:js];

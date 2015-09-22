@@ -21,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		868E15B52E221A71D2E71122 /* libPods-EMWebApp_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E170153B882B5821EE257A /* libPods-EMWebApp_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		948333091BAC15D400CF68B9 /* EMWebDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948333081BAC15D400CF68B9 /* EMWebDemoViewController.m */; };
-		EC822A7C3F894D3772F66230 /* Pods_EMWebApp_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9026AA4FF2303DAB3E82C49D /* Pods_EMWebApp_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +62,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9026AA4FF2303DAB3E82C49D /* Pods_EMWebApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMWebApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9081CEDDFF5E3163B804CB5F /* Pods-EMWebApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMWebApp_Tests/Pods-EMWebApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		948333071BAC15D400CF68B9 /* EMWebDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMWebDemoViewController.h; sourceTree = "<group>"; };
 		948333081BAC15D400CF68B9 /* EMWebDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMWebDemoViewController.m; sourceTree = "<group>"; };
+		A5E170153B882B5821EE257A /* libPods-EMWebApp_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMWebApp_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D5822BD723A32748884A82 /* Pods-EMWebApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMWebApp_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMWebApp_Example/Pods-EMWebApp_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6231DC677A6BE83BC07B4BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				EC822A7C3F894D3772F66230 /* Pods_EMWebApp_Example.framework in Frameworks */,
+				868E15B52E221A71D2E71122 /* libPods-EMWebApp_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +124,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				9026AA4FF2303DAB3E82C49D /* Pods_EMWebApp_Example.framework */,
 				1FA96B6D32711E89FB371EFE /* Pods_EMWebApp_Tests.framework */,
+				A5E170153B882B5821EE257A /* libPods-EMWebApp_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,7 +209,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				AE4485380B38C95639624AE2 /* Embed Pods Frameworks */,
 				25B6337A778196D21C6AF668 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -371,21 +370,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AE4485380B38C95639624AE2 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMWebApp_Example/Pods-EMWebApp_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+#use_frameworks!
 
 target 'EMWebApp_Example', :exclusive => true do
   pod "EMWebApp", :path => "../"
 end
 
 target 'EMWebApp_Tests', :exclusive => true do
-  pod "EMWebApp", :path => "../"
-
-  pod 'FBSnapshotTestCase'
+#  pod "EMWebApp", :path => "../"
+#
+#  pod 'FBSnapshotTestCase'
 end
