@@ -10,6 +10,12 @@
 
 @implementation JSActionModuleBase
 
+- (void)onMenuShareTimeline {
+    NSArray *arguments = [JSContext currentArguments];
+//    onSuccess();
+//    onFail();
+}
+
 
 - (void)attachActionsWithWebViewContext:(JSContext *)webViewContext {
     JSContext *context = [self webViewContext];

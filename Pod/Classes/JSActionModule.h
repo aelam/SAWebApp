@@ -10,7 +10,7 @@
 #import <JavaScriptCore/JavaScriptCore.h>
 #import <SAWebViewController.h>
 
-@interface JSActionModule : NSObject
+@interface JSActionModule : NSObject<JSExport>
 
 
 - (void)attachActionsWithWebViewController:(UIViewController<SAWebViewController> *)webViewController;

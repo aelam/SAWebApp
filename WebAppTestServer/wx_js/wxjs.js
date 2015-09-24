@@ -1,6 +1,6 @@
 (function() {
   function Q() {
-    if (B._fetchQueue !== Z) return "";
+    if (wx_bridge._fetchQueue !== Z) return "";
     var c = x.stringify(L);
     L = [];
     var e = [];
@@ -15,7 +15,7 @@
     return x.stringify(i)
   }
   function S(c) {
-    if (B._handleMessageFromWeixin !== aa) return "{}";
+    if (wx_bridge._handleMessageFromWeixin !== aa) return "{}";
     var e = c[ba],
       c = c[R],
       i = [];
@@ -48,10 +48,10 @@
     })
   }
   function E(c) {
-    return B.env !== ca ? "" : v[c]
+    return wx_bridge.env !== ca ? "" : v[c]
   }
-  function w(c) {
-    if (B.log === da) {
+  function WX_LOG(c) {
+    if (wx_bridge.log === da) {
       for (var e = [], i = 0; i < arguments.length; i++) e.push(arguments[i]);
       var i = e.shift(),
         l;
@@ -66,7 +66,7 @@
     }
   }
   function o(c, e, i) {
-    if (B.call === ea && c && "string" === typeof c) {
+    if (wx_bridge.call === ea && c && "string" === typeof c) {
       "object" !== typeof e && (e = {});
       var l = (fa++).toString();
       "function" === typeof i && (C[l] = i);
@@ -92,7 +92,7 @@
     c && "string" === typeof c && "function" === typeof e && (H[c] = e)
   }
   function Y(c, e) {
-    B.on === ha && c && "string" === typeof c && "function" === typeof e && (G[c] = e)
+    wx_bridge.on === ha && c && "string" === typeof c && "function" === typeof e && (G[c] = e)
   }
   function y(c, e) {
     if ("function" === typeof G[c] && O(c)) G[c](e);
@@ -125,13 +125,13 @@
         try {
           j = b.toDataURL("image/" + a)
         } catch (p) {
-          w(p.message)
+          WX_LOG(p.message)
         }
       }
       e(j.replace(l, ""), i, c)
     })
   }
-  function ja() {
+  function WX_VIEWIMAGE() {
     q('a[href^="weixin://viewimage/"]').on("click", function(c) {
       for (var e = "", e = ("string" === typeof c.target.href && 0 === c.target.href.search("weixin://viewimage/") ? c.target : q(c.target).parents('a[href^="weixin://viewimage/"]')[0]).href.substr(19), i = q('a[href^="weixin://viewimage/"]'), l = [], j = 0; j < i.length; j++) l.push(i[j].href.substr(19));
       o("imagePreview", {
@@ -141,7 +141,7 @@
       c.preventDefault()
     })
   }
-  function ka() {
+  function WX_READER_SHARE() {
     q('a[href^="weixin://readershare/"]').on("click", function(c) {
       c.preventDefault();
       y("menu:share:weibo", v.shareWeiboData || {})
@@ -151,7 +151,7 @@
       y("menu:share:timeline", v.shareTimelineData || {})
     })
   }
-  function la() {
+  function WX_PLAY_AUDIO() {
     var c = q("audio");
     c.on("play", function() {
       o("audioStateChanged", {
@@ -1354,7 +1354,7 @@
     R = "__sha_key",
     aa = S,
     Z = Q,
-    da = w,
+    da = WX_LOG,
     ca = E,
     ha = Y,
     ea = o,
@@ -1366,16 +1366,16 @@
   window.prompt = function(c, e) {
     "yes" !== document.__wxjsjs__isWebviewWillClosed && na(c, e)
   };
-  var B = {
+  var wx_bridge = {
     invoke: o,
     call: o,
     on: Y,
     env: E,
-    log: w,
+    log: WX_LOG,
     _fetchQueue: Q,
     _handleMessageFromWeixin: S
   };
-  window.WeixinJSBridge ? q.extend(window.WeixinJSBridge, B) : window.WeixinJSBridge = B;
+  window.WeixinJSBridge ? q.extend(window.WeixinJSBridge, wx_bridge) : window.WeixinJSBridge = wx_bridge;
   (function() {
     function c(b, a) {
       for (var c = document.elementFromPoint(b, a), e = c; e && "IMG" != e.tagName;) e = e.parentNode;
@@ -1463,7 +1463,7 @@
         }, 1E3)
       };
     A("menu:share:timeline", function(b) {
-      w("share timeline");
+      WX_LOG("share timeline");
       var a;
       "string" === typeof b.title ? (a = b, o("shareTimeline", a)) : (a = {
         link: document.documentURI || v.init_url,
@@ -1475,7 +1475,7 @@
       }))
     });
     A("menu:share:qq", function(b) {
-      w("share QQ");
+      WX_LOG("share QQ");
       var a;
       "string" === typeof b.title ? (a = b, o("shareQQ", a)) : (a = {
         link: document.documentURI || v.init_url,
@@ -1487,7 +1487,7 @@
       }))
     });
     A("menu:share:weiboApp", function(b) {
-      w("share Weibo App");
+      WX_LOG("share Weibo App");
       var a;
       "string" === typeof b.title ? (a = b, o("shareWeiboApp", a)) : (a = {
         link: document.documentURI || v.init_url,
@@ -1499,7 +1499,7 @@
       }))
     });
     var j = function(b) {
-        w("share weibo");
+        WX_LOG("share weibo");
         var a;
         a = "string" === typeof b.content ? b : {
           content: document.title,
@@ -1514,7 +1514,7 @@
       };
     A("menu:share:weibo", j);
     A("menu:share:QZone", function(b) {
-      w("share QZone");
+      WX_LOG("share QZone");
       var a;
       "string" === typeof b.title ? (a = b, o("shareQZone", a)) : (a = {
         link: document.documentURI || v.init_url,
@@ -1526,7 +1526,7 @@
       }))
     });
     A("general:share", function(b) {
-      w("general share");
+      WX_LOG("general share");
       var a = function(a, c) {
           "weibo" === b.shareTo && o("shareWeibo", a, function(a) {
             a.err_msg = "share_weibo:ok" === a.err_msg ? "general_share:ok" : "share_weibo:cancel" === a.err_msg ? "general_share:cancel" : "general_share:fail";
@@ -1579,7 +1579,7 @@
           }) : o("shareQZone", a, e))
         },
         c = function() {
-          w("general share failed. fallback to original share" + b.shareTo);
+          WX_LOG("general share failed. fallback to original share" + b.shareTo);
           "weibo" === b.shareTo && y("menu:share:weibo", b);
           ("friend" === b.shareTo || "favorite" === b.shareTo || "connector" === b.shareTo) && y("menu:share:appmessage", b);
           "timeline" === b.shareTo && y("menu:share:timeline", b)
@@ -1589,10 +1589,10 @@
         $: q,
         fail: c,
         success: a
-      }, w("try default share handler"), y("__internal:get_share_object", a))
+      }, WX_LOG("try default share handler"), y("__internal:get_share_object", a))
     });
     A("menu:share:appmessage", function(b) {
-      w("share appmessage");
+      WX_LOG("share appmessage");
       var a;
       "string" === typeof b.title ? (a = b, o("sendAppMessage", a)) : (a = {
         link: document.documentURI || v.init_url,
@@ -1604,14 +1604,14 @@
       }))
     });
     A("menu:share:email", function(b) {
-      w("share email");
+      WX_LOG("share email");
       o("sendEmail", "string" === typeof b.title ? b : {
         content: document.documentURI || v.init_url,
         title: document.title
       })
     });
     A("menu:share:facebook", function(b) {
-      w("share facebook");
+      WX_LOG("share facebook");
       var a;
       "string" === typeof b.title ? (a = b, o("shareFB", a)) : (a = {
         link: document.documentURI || v.init_url,
@@ -1623,7 +1623,7 @@
       }))
     });
     A("ui:longpress", function(b) {
-      w("longpress at (" + b.x + "," + b.y + ")");
+      WX_LOG("longpress at (" + b.x + "," + b.y + ")");
       var a = c(b.x, b.y);
       a ? ia(a, function(a, b, c) {
         o("saveImage", {
@@ -1634,7 +1634,7 @@
           elementTop: e(c),
           elementLeft: i(c)
         })
-      }) : w("cannot find image at (" + b.x + "," + b.y + ")")
+      }) : WX_LOG("cannot find image at (" + b.x + "," + b.y + ")")
     });
     A("sys:init", function(b) {
       v = b;
@@ -1648,9 +1648,9 @@
         isFirstAutoSet: 1
       });
       try {
-        ja(), ka(), la()
+        WX_VIEWIMAGE(), WX_READER_SHARE(), WX_PLAY_AUDIO()
       } catch (b) {
-        w("error %s", b)
+        WX_LOG("error %s", b)
       }
     })
   })();

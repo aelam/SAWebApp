@@ -3,22 +3,22 @@ function(a, b) {
 	"function" == typeof define && (define.amd || define.cmd) ? define(function() {
 		return b(a)
 	}) : b(a, !0)
-}(this, function(a, b) {
-	function invoke(b, c, d) {
-		window.WeixinJSBridge ? WeixinJSBridge.invoke(b, e(c), function(a) {
-			g(b, a, d)
-		}) : j(b, d)
+}(this, function(a, api_name) {
+	function invoke(api_name, params, callback) {
+		window.WeixinJSBridge ? WeixinJSBridge.invoke(api_name, getCofig(params), function(a) {
+			g(api_name, a, callback)
+		}) : j(api_name, callback)
 	}
-	function api_on(b, c, d) {
+	function api_on(api_name, c, d) {
 		//WeixinJSBridge.on('menu:share:appmessage', function(argv){ alert("发送给好友"); });
-		window.WeixinJSBridge ? WeixinJSBridge.on(b, function(a) {
-			d && d.trigger && d.trigger(a), g(b, a, c)
-		}) : d ? j(b, d) : j(b, c)
+		window.WeixinJSBridge ? WeixinJSBridge.on(api_name, function(a) {
+			d && d.trigger && d.trigger(a), g(api_name, a, c)
+		}) : d ? j(api_name, d) : j(api_name, c)
 	}
-	function e(a) {
+	function getCofig(a) {
 		return a = a || {}, a.appId = z.appId, a.verifyAppId = z.appId, a.verifySignType = "sha1", a.verifyTimestamp = z.timestamp + "", a.verifyNonceStr = z.nonceStr, a.verifySignature = z.signature, a
 	}
-	function f(a) {
+	function getConfigMap(a) {
 		return {
 			timeStamp: a.timestamp + "",
 			nonceStr: a.nonceStr,
@@ -86,7 +86,7 @@ function(a, b) {
 			})
 		}
 	}
-	function l() {
+	function getCurrentTime() {
 		return (new Date).getTime()
 	}
 	function m(b) {
@@ -94,7 +94,7 @@ function(a, b) {
 	}
 	function n() {
 		C.invoke || (C.invoke = function(b, c, d) {
-			a.WeixinJSBridge && WeixinJSBridge.invoke(b, e(c), d)
+			a.WeixinJSBridge && WeixinJSBridge.invoke(b, getCofig(c), d)
 		},
 		C.on = function(b, c) {
 			a.WeixinJSBridge && WeixinJSBridge.on(b, c)
@@ -118,11 +118,13 @@ function(a, b) {
 		var b, a = {};
 		for (b in o) a[o[b]] = b;
 		return a
-	}(), q = a.document, r = q.title, s = navigator.userAgent.toLowerCase(), t = -1 != s.indexOf("micromessenger"), u = -1 != s.indexOf("android"), v = -1 != s.indexOf("iphone") || -1 != s.indexOf("ipad"), w = function() {
+	}(),
+        // 判断应用
+        q = a.document, r = q.title, s = navigator.userAgent.toLowerCase(), t = -1 != s.indexOf("micromessenger"), u = -1 != s.indexOf("android"), v = -1 != s.indexOf("iphone") || -1 != s.indexOf("ipad"), w = function() {
 		var a = s.match(/micromessenger\/(\d+\.\d+\.\d+)/) || s.match(/micromessenger\/(\d+\.\d+)/);
 		return a ? a[1] : ""
 	}(), x = {
-		initStartTime: l(),
+		initStartTime: getCurrentTime(),
 		initEndTime: 0,
 		preVerifyStartTime: 0,
 		preVerifyEndTime: 0
@@ -142,7 +144,7 @@ function(a, b) {
 		state: 0,
 		res: {}
 	}, m(function() {
-		x.initEndTime = l()
+		x.initEndTime = getCurrentTime()
 	}),
 
 	C = {
@@ -155,7 +157,7 @@ function(a, b) {
 					verifyJsApiList: i(z.jsApiList)
 				}, function() {
 					A._complete = function(a) {
-						x.preVerifyEndTime = l(), B.state = 1, B.res = a
+						x.preVerifyEndTime = getCurrentTime(), B.state = 1, B.res = a
 					}, A.success = function() {
 						y.isPreVerifyOk = 0
 					}, A.fail = function(a) {
@@ -168,7 +170,7 @@ function(a, b) {
 						for (var c = 0, d = a.length; d > c; ++c) a[c]();
 						A._completes = []
 					}, A
-				}()), x.preVerifyStartTime = l();
+				}()), x.preVerifyStartTime = getCurrentTime();
 				else {
 					for (B.state = 1, a = A._completes, d = 0, e = a.length; e > d; ++d) a[d]();
 					A._completes = []
@@ -471,7 +473,7 @@ function(a, b) {
 			}, a)
 		},
 		chooseWXPay: function(a) {
-			invoke(o.chooseWXPay, f(a), a)
+			invoke(o.chooseWXPay, getConfigMap(a), a)
 		}
 	}, b && (window.wx = window.jWeixin = C), C
 });

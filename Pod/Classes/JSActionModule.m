@@ -11,6 +11,10 @@
 
 @implementation JSActionModule
 
+- (void)onMenuShareTimeline {
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+}
+
 - (void)attachActionsWithWebViewController:(UIViewController<SAWebViewController> *)webViewController {
 }
 

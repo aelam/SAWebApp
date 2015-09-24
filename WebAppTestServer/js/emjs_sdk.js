@@ -1,14 +1,15 @@
 (function() {
 
-    function connectWebViewJavascriptBridge(callback) {
-		if (window.WebViewJavascriptBridge) {
-			callback(WebViewJavascriptBridge)
-		} else {
-			document.addEventListener('WebViewJavascriptBridgeReady', function() {
-				callback(WebViewJavascriptBridge)
-			}, false)
-		}
-	};
+
+//    function connectWebViewJavascriptBridge(callback) {
+//		if (window.WebViewJavascriptBridge) {
+//			callback(WebViewJavascriptBridge)
+//		} else {
+//			document.addEventListener('WebViewJavascriptBridgeReady', function() {
+//				callback(WebViewJavascriptBridge)
+//			}, false)
+//		}
+//	};
 
 	//connectWebViewJavascriptBridge(function(bridge) {
     //    var uniqueId = 1
@@ -41,5 +42,5 @@
     //    })
     //};
 
-    window.goods = window.WebViewJavascriptBridge;
+//    window.goods = window.WebViewJavascriptBridge;
 });

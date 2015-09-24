@@ -13,9 +13,26 @@
 
 #define JSActionScheme @"JSAction"
 
+
+@implementation EMJSAPI
+
++ (BOOL)canOpenURL:(NSURL *)URL {
+    return [[UIApplication sharedApplication]canOpenURL:URL];
+}
+
++ (void)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback {
+    if ([api isEqualToString:@"canOpenURL"]) {
+        
+    }
+    [jsCallback callWithArguments:nil];
+    NSLog(@"%@", [JSContext currentArguments]);
+}
+@end
+
+
 @interface SAWebViewController () <UIWebViewDelegate>
 
-@property WebViewJavascriptBridge* bridge;
+@property (nonatomic, strong) WebViewJavascriptBridge* bridge;
 
 @end
 
@@ -55,20 +72,32 @@
 }
 
 - (void)loadBridge {
+    JSContext *context = [self.webView webViewContext];
+    context[@"EMJSAPI"] = [EMJSAPI class];
+    
+    [context evaluateScript:@"var console = {}"];
+    context[@"console"][@"log"] = ^(NSString *message) {
+        NSLog(@"Javascript log: %@",message);
+    };
+    
+//    JSValue *EMJS = context[@"EMJSAPI"];
+//    [EMJS invokeMethod:@"hello" withArguments:nil];
+//    [EMJS invokeMethod:@"invoke" withArguments:nil];
+
     if(_bridge) {
         return;
     }
-    [WebViewJavascriptBridge enableLogging];
-    
-    _bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView webViewDelegate:self handler:^(id data, WVJBResponseCallback responseCallback) {
-        NSLog(@"ObjC received message from JS: %@", data);
-        responseCallback(@"Response for message from ObjC");
-    }];
-    
-    [_bridge registerHandler:@"testObjcCallback" handler:^(id data, WVJBResponseCallback responseCallback) {
-        NSLog(@"testObjcCallback called: %@", data);
-        responseCallback(@"Response from testObjcCallback");
-    }];
+//    [WebViewJavascriptBridge enableLogging];
+//    
+//    _bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView webViewDelegate:self handler:^(id data, WVJBResponseCallback responseCallback) {
+//        NSLog(@"ObjC received message from JS: %@", data);
+//        responseCallback(@"Response for message from ObjC");
+//    }];
+//    
+//    [_bridge registerHandler:@"testObjcCallback" handler:^(id data, WVJBResponseCallback responseCallback) {
+//        NSLog(@"testObjcCallback called: %@", data);
+//        responseCallback(@"Response from testObjcCallback");
+//    }];
     
 
 }
@@ -86,7 +115,7 @@
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    [self.jsLoader attachToWebViewController:self];
+//    [self.jsLoader attachToWebViewController:self];
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {

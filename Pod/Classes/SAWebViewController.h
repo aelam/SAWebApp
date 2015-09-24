@@ -8,6 +8,23 @@
 
 #import <UIKit/UIKit.h>
 #import "JSActionModuleLoader.h"
+#import <WebViewJavascriptBridge/WebViewJavascriptBridge.h>
+#import <JavaScriptCore/JavaScriptCore.h>
+
+@protocol EMJSAPIExport <JSExport>
+
++ (void)invoke:(NSString *)api withParams:(NSDictionary *)params;
+
+JSExportAs(invoke,
++ (void)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback
+           );
+@end
+
+@interface EMJSAPI : NSObject <EMJSAPIExport>
+
+@end
+
+
 
 @class JSActionModuleLoader;
 

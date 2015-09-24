@@ -1,8 +1,24 @@
+//
+//goods.ready(function() {
+//    alert("em.ready");
+//});
+//
+//
+//alert(EMJSAPI);
 
-goods.ready(function() {
-    alert("em.ready");
+//EMJSAPI.invoke("hideOptionMenu", [],function(){
+//    alert("JS:hideOptionMenu");
+//});
+//
+//
+//EMJSAPI.invoke("hideOptionMenu", [],"a");
+//EMJSAPI.hello();
+EMJSAPI.invoke("xxx","yyy",function(){
+    alert("zzz");
 });
 
+
+console.log("console.log");
 
 //em.ready(function() {
 //    alert("em.ready");

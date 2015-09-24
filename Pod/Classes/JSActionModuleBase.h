@@ -10,4 +10,6 @@
 
 @interface JSActionModuleBase : JSActionModule
 
+- (void)onMenuShareTimeline;
+
 @end
