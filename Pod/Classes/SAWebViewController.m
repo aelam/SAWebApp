@@ -38,12 +38,21 @@
 
 @implementation SAWebViewController
 
-- (instancetype)init {
-    if (self = [super init]) {
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super initWithCoder:aDecoder]) {
         self.jsLoader = [JSActionModuleLoader defaultJSActionModuleLoader];
     }
     return self;
 }
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil]) {
+        self.jsLoader = [JSActionModuleLoader defaultJSActionModuleLoader];
+    }
+    return self;
+}
+
 
 - (void)loadView {
     self.view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -60,6 +69,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self loadBridge];
+    [self.jsLoader attachToWebViewController:self];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -71,35 +81,11 @@
     [super didReceiveMemoryWarning];
 }
 
+- (JSContext *)webViewContext {
+    return [self.webView webViewContext];
+}
+
 - (void)loadBridge {
-    JSContext *context = [self.webView webViewContext];
-    context[@"EMJSAPI"] = [EMJSAPI class];
-    
-    [context evaluateScript:@"var console = {}"];
-    context[@"console"][@"log"] = ^(NSString *message) {
-        NSLog(@"Javascript log: %@",message);
-    };
-    
-//    JSValue *EMJS = context[@"EMJSAPI"];
-//    [EMJS invokeMethod:@"hello" withArguments:nil];
-//    [EMJS invokeMethod:@"invoke" withArguments:nil];
-
-    if(_bridge) {
-        return;
-    }
-//    [WebViewJavascriptBridge enableLogging];
-//    
-//    _bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView webViewDelegate:self handler:^(id data, WVJBResponseCallback responseCallback) {
-//        NSLog(@"ObjC received message from JS: %@", data);
-//        responseCallback(@"Response for message from ObjC");
-//    }];
-//    
-//    [_bridge registerHandler:@"testObjcCallback" handler:^(id data, WVJBResponseCallback responseCallback) {
-//        NSLog(@"testObjcCallback called: %@", data);
-//        responseCallback(@"Response from testObjcCallback");
-//    }];
-    
-
 }
 
 // MARK: UIWebViewDelegate
@@ -115,18 +101,10 @@
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-//    [self.jsLoader attachToWebViewController:self];
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
     
 }
-
-//    NSString *jsPath = [[NSBundle mainBundle] pathForResource:@"EMBridge" ofType:@"js"];
-//    NSString *js = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
-//    [[self.webView webViewContext] evaluateScript:js];
-//
-//}
-
 
 @end

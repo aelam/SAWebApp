@@ -29,7 +29,7 @@
 
 
 - (JSContext *)webViewContext {
-    JSContext *context = [self valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+    JSContext *context = [self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     return context;
 }
 

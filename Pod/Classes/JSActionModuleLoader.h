@@ -8,18 +8,26 @@
 
 #import <Foundation/Foundation.h>
 #import "SAWebViewController.h"
+#import <JavaScriptCore/JavaScriptCore.h>
 
 @class SAWebViewController;
 @class JSActionModule;
 @class JSContext;
 
-@protocol JSActionModule <NSObject>
 
+@protocol JSActionExport <JSExport>
 
+JSExportAs(invoke,
+- (BOOL)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback
+);
 
 @end
 
-@interface JSActionModuleLoader : NSObject
+@protocol JSActionModule <JSActionExport>
+
+@end
+
+@interface JSActionModuleLoader : NSObject <JSActionExport>
 
 + (instancetype)defaultJSActionModuleLoader;
 
@@ -33,6 +41,8 @@
 
 - (JSContext *)webViewContext;
 - (UIWebView *)webView;
+
+
 
 @end
 

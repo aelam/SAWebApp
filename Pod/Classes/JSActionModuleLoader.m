@@ -14,7 +14,7 @@
 @interface JSActionModuleLoader ()
 
 @property (nonatomic, strong) NSMutableArray *modules;
-@property (nonatomic, strong) SAWebViewController *webViewController;
+@property (nonatomic, weak) SAWebViewController *webViewController;
 
 @end
 
@@ -58,24 +58,41 @@
 - (void)attachToWebViewController:(SAWebViewController *)webViewController {
     self.webViewController = webViewController;
     [self _installModules];
+    
+    [self bindActionsToContext:[self.webViewController webViewContext]];
 }
 
 - (void)deattachToWebViewController:(SAWebViewController *)webViewController {
     self.webViewController = nil;
 }
 
-- (JSContext *)webViewContext {
-    return [JSActionModuleLoader defaultJSActionModuleLoader].webViewContext;
-}
-
-- (UIWebView *)webView {
-    return self.webViewController.webView;
-}
+//- (UIWebView *)webView {
+//    return self.webViewController.webView;
+//}
 
 - (void)_installModules {
     
 }
 
+// JSActionExport
+- (BOOL)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback {
+    NSLog(@"api :%@, params: %@, jsCallback: %@",api, params, jsCallback );
+    
 
+    [jsCallback callWithArguments:nil];
+    return YES;
+}
+
+- (void)bindActionsToContext:(JSContext *)context {
+    context[@"EMJSAPI"] = self;
+    [context evaluateScript:@"var console = {}"];
+    context[@"console"][@"log"] = ^(NSString *message) {
+        NSLog(@"Javascript log: %@",message);
+    };
+    
+    context.exceptionHandler = ^(JSContext *context, JSValue *exception) {
+        NSLog(@"JS Error: %@", exception);
+    };
+}
 
 @end

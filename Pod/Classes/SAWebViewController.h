@@ -20,17 +20,13 @@ JSExportAs(invoke,
            );
 @end
 
-@interface EMJSAPI : NSObject <EMJSAPIExport>
-
-@end
-
-
 
 @class JSActionModuleLoader;
 
 @protocol SAWebViewController <NSObject>
 
-@property (nonatomic, readonly) UIWebView *webView;
+@property (nonatomic, readonly) IBOutlet UIWebView *webView;
+@property (nonatomic, readonly) JSContext *webViewContext;
 
 @end
 

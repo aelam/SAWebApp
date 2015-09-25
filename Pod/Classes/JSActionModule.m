@@ -18,7 +18,9 @@
 - (void)attachActionsWithWebViewController:(UIViewController<SAWebViewController> *)webViewController {
 }
 
-
+- (BOOL)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback {
+    
+}
 
 //
 //- (void)attachActionsWithWebViewContext:(JSContext *)webViewContext {
