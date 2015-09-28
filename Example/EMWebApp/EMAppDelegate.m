@@ -7,12 +7,13 @@
 //
 
 #import "EMAppDelegate.h"
+#import <EMWebApp/EMWebApp.h>
 
 @implementation EMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[JSActionModuleLoader defaultJSActionModuleLoader]installJSModule:[JSActionModuleShare new]];
     return YES;
 }
 

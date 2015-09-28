@@ -12,6 +12,7 @@
 
 @interface JSActionModule : NSObject<JSActionModule>
 
+@property (nonatomic, weak) SAWebViewController *webViewController;
 
 - (void)attachActionsWithWebViewController:(UIViewController<SAWebViewController> *)webViewController;
 

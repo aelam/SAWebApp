@@ -13,12 +13,13 @@
 
 @interface JSActionModuleLoader ()
 
-@property (nonatomic, strong) NSMutableArray *modules;
 @property (nonatomic, weak) SAWebViewController *webViewController;
 
 @end
 
 @implementation JSActionModuleLoader
+
+@synthesize modules = _modules;
 
 + (instancetype)defaultJSActionModuleLoader {
     static JSActionModuleLoader *loader = nil;
@@ -76,12 +77,22 @@
 
 // JSActionExport
 - (BOOL)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback {
-    NSLog(@"api :%@, params: %@, jsCallback: %@",api, params, jsCallback );
-    
-
-    [jsCallback callWithArguments:nil];
+    NSLog(@"invoke api :%@, params: %@, jsCallback: %@",api, params, jsCallback);
+ 
+    for(JSActionModule *module in self.modules) {
+        [module invoke:api params:params callback:jsCallback];
+    }
     return YES;
 }
+
+- (void)on:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback {
+    NSLog(@"on api :%@, params: %@, jsCallback: %@",api, params, jsCallback );
+    
+    for(JSActionModule *module in self.modules) {
+        [module on:api params:params callback:jsCallback];
+    }
+}
+
 
 - (void)bindActionsToContext:(JSContext *)context {
     context[@"EMJSAPI"] = self;

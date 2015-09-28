@@ -7,151 +7,159 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		034D034DF4A4BA2F8E8F16146743723D /* JSActionModuleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D822B47761416703213FDEE1859F77DA /* JSActionModuleBase.m */; };
-		05161C35359B92CD285CFC8C682A9B53 /* EMWebApp.h in Headers */ = {isa = PBXBuildFile; fileRef = C85BFB051F5CA5032A9742222BE15C0F /* EMWebApp.h */; };
-		05D69D0F80F2D2A1C0D650BA806FE323 /* UIWebView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = F884D1A8052079A040BC27DC06705845 /* UIWebView+Ext.m */; };
-		09670FCB4CF44067B8E42FBD6435B593 /* JSActionModuleStock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFBB6E1C5677686049C300A84C5FE81 /* JSActionModuleStock.h */; };
-		0ABE7CDBF470A46A0003C09A200C58DB /* NSURL+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FC8E0234F00264EFE4CD2B0B50F5D5 /* NSURL+Extensions.m */; };
-		0FD45E372570EECB666F3C1303C99EA9 /* UIImage+JTKGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = D425D471C040A824F51685C60E6862C6 /* UIImage+JTKGradient.m */; };
-		2240B1E852BC3B57FD6C153B921F06BA /* SAWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD3E44CB78AD1B3B0B87BB5FF12F290 /* SAWebViewController.h */; };
-		35C4E3833A5A58A6262D7E234C0C79D1 /* SAWebViewController+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A298778C50C71923DBD2B8FB212A414 /* SAWebViewController+Ext.h */; };
-		3C84AA54FBE0C2A2EE857C4535243882 /* UIWebView+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = E76F8300E4D0B4ACFAF6D732E44A039C /* UIWebView+Ext.h */; };
+		00EC73570C634BD9202FBFDF2C539EAE /* JSActionModuleStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 768D768A7992AC69571AC2EC384A3CC9 /* JSActionModuleStock.m */; };
+		079A4FA20F11092DFDC3AFBB0BB3831E /* SAWebViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FA642E459683C407844E291D6EFE31F5 /* SAWebViewController+Ext.m */; };
+		0DB4E729B80E344F2FFAA1BE3F17FBB6 /* UIViewController+BarColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 790F9117E8ADF6CB809CE5CE9D596F22 /* UIViewController+BarColor.h */; };
+		1A9926DEB7DFF5DFD40777EBC035BFFC /* UIImage+JTKGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F1527DC3DB73AC8FC781C10FBF89E0 /* UIImage+JTKGradient.m */; };
+		225DF74EA27DBD87EFF71DFF0EBB1D48 /* UIWebView+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0C4A670AE76B6C14286353FD5F7A77 /* UIWebView+Ext.h */; };
+		2EC721245267B8E5DAA15ED21D012090 /* JSActionModuleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5567617A31055CFE3EE5DEE8A5AB7F79 /* JSActionModuleLoader.m */; };
 		3E53AB40E913FAEFCD0BBD01F8677C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61EFA73155E0795A404885DD1C67CC6 /* Foundation.framework */; };
-		4120C77577FF179935E299303FD27323 /* EMWebApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B67B4B4F609935297D2F4F40EC2D5221 /* EMWebApp-dummy.m */; };
-		51C0C06844653C796539E3633D4562C3 /* UIImage+JTKGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = C1345F9DB15417F98DAA6AE708749DEB /* UIImage+JTKGradient.h */; };
-		58E6A235D72B5016EDB42F4382E42F56 /* SAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650979CF402B8BA704188ED18EF5EA6A /* SAWebViewController.m */; };
+		4DA628E73E82BCDBDC781D9F34347BF5 /* NSURL+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A085F05EA9B43E0D456537B14313D3D /* NSURL+Extensions.h */; };
+		56B3E1AD0DA11DC8ED7CF16F965EC251 /* SAWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AD2634EF75AFF625C83EEAAE7E556B /* SAWebViewController.h */; };
+		5A8AC31D59C5853256D9FCF45DE953FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61EFA73155E0795A404885DD1C67CC6 /* Foundation.framework */; };
+		5ED9365F444C25848628F7D6D73D4DE3 /* JSActionModuleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C12D705359E408A9044A7BA207E96454 /* JSActionModuleBase.m */; };
+		64C47B8FF9EBD34949C3D4B2D2541590 /* UINavigationBar+EMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA0816CFB120523D289A61A108BA4AA /* UINavigationBar+EMGradient.m */; };
 		65FE072BD7B26AC3C16EF5455CA6172E /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D23715BC70EB1C71012921B9F42F9 /* UIColor+HexString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6DDBD3E1C75CA897CDB1076CE699F50B /* NSURL+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F41931A12E6C0F9412C9CD436F84C8 /* NSURL+Extensions.h */; };
-		737672C3BB7C492FAF45B45ACE1EE73B /* JSActionModuleStock.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C13414CA691B3B45F84B6C1E204E92 /* JSActionModuleStock.m */; };
-		7A4C4D979995B758E4AA10DB301CC10F /* UINavigationBar+EMGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 565DEF73E3F7E0D6BE09CD3148571C3F /* UINavigationBar+EMGradient.h */; };
-		7C4C60F5C8A3862F4954B90BCE7F9CE7 /* UINavigationBar+EMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDCCD58FB74F959B3458A09B608E569 /* UINavigationBar+EMGradient.m */; };
-		7D5F06F8F5103B9A63764CD0046C9113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61EFA73155E0795A404885DD1C67CC6 /* Foundation.framework */; };
-		97BDA41370130BDDC7DCD541C116BCEE /* JSAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D5D45E7535F864A28A8291118ADCD5 /* JSAction.h */; };
+		670AE941648B5DA6EDE0134B0FD27C37 /* JSActionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = AA527C39A1B37446D4A4CF652E104B89 /* JSActionModule.m */; };
+		68BA8ACEA153A4F79D801FA441B300B4 /* UIViewController+BarColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2884E1F897627DC3C1964A0F6C4F63 /* UIViewController+BarColor.m */; };
+		6F056A3CE3BDE779AF11A4F033CF0BAB /* JSActionModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC08733C8334E98367A99F40E73CCB0 /* JSActionModule.h */; };
+		755D085AF53C18E30D1CB2D6E5DB4022 /* UIImage+JTKGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FD3E2A228E058FF833488A3001A11B /* UIImage+JTKGradient.h */; };
+		7703B05C0ED49778B592A0222FDDFA0A /* JSActionModuleShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B53143A3486C78E587377DF83BA852E /* JSActionModuleShare.m */; };
+		94B740E21BB91999002C95E1 /* SAWebViewController+Share.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B740E01BB91999002C95E1 /* SAWebViewController+Share.h */; settings = {ASSET_TAGS = (); }; };
+		94B740E31BB91999002C95E1 /* SAWebViewController+Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B740E11BB91999002C95E1 /* SAWebViewController+Share.m */; settings = {ASSET_TAGS = (); }; };
+		9A04B6F13CB683510195A25004862334 /* JSActionModuleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A39F6011E289988C813D8EA66E37F7 /* JSActionModuleLoader.h */; };
+		9CF196C29010E394B6C509FC411B194D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E8F417F1AC78F0EEB267422EEEC4D73F /* README.md */; };
+		9FA75C01E8B75BA3E7B0C3294BFABDAF /* UINavigationBar+EMGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E0A8F8ECC2DCA16635FC764C3A7F72 /* UINavigationBar+EMGradient.h */; };
+		A0D07E80892639A6E72F11B575CFDEE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0520E293BE0A02F08D4FA08473877AAD /* UIKit.framework */; };
 		A875791AC4BEF11064F16AC81CD4E3FD /* UIColor-HexString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B237E1D839A051237EC5AC52EF066C90 /* UIColor-HexString-dummy.m */; };
 		AB5508E34CB0832D09D2B593F2CB5953 /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93797311750EB3054BF0F8D158CC2739 /* WebViewJavascriptBridge-dummy.m */; };
 		B1ED55E74043D5A8AF1AE47B427E79ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61EFA73155E0795A404885DD1C67CC6 /* Foundation.framework */; };
-		BA27B721A8CC8F97B1B2C9246B32B493 /* SAWebViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 318A6ADDC8DDB66CB73EAE57D45B9C8C /* SAWebViewController+Ext.m */; };
+		B77A497BAB734146E1F7D4C9842C0055 /* EMWebApp.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BF32BB56897DC8ADE1B8E73E00250E /* EMWebApp.h */; };
+		C01C7EBEC41A6D22C84D48D8D84C09E5 /* EMWebApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0642E9DD23F64D3C767628ACE7D5AF /* EMWebApp-dummy.m */; };
+		C381E90E38D2800196183D9E21272E6D /* UIWebView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EDF25091E2F12E6CF6A57B898C369 /* UIWebView+Ext.m */; };
 		C78A78773D940364E316040CF33FBE51 /* Pods-EMWebApp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F8726A46C316FEBD0065264798A46 /* Pods-EMWebApp_Example-dummy.m */; };
-		C9955E5692FD536734EECE34D190977C /* JSActionModuleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D1B99F0EA18A9179D65EA9553E7FEF /* JSActionModuleLoader.m */; };
-		CB11A4536A7EFEB0F8E5453BF915F161 /* JSActionModuleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB617EE8302742F801193E3B749CFBD /* JSActionModuleLoader.h */; };
-		D005AFDD91AF59FA2EF23D53838790BC /* JSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ABFC29A3E176879E803FD72158F490 /* JSAction.m */; };
-		D80662E05D6FD52F3D39FF2319378B17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0520E293BE0A02F08D4FA08473877AAD /* UIKit.framework */; };
+		CD1028DE1C9D19A8679429F3D68D7090 /* JSActionModuleShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B7CB779B9A3196D2F6A0CE40B789A8 /* JSActionModuleShare.h */; };
+		D353FDE0B67BF2550508B3EBAF0E53EE /* JSAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F40D28AE880367B266206657131AA8 /* JSAction.m */; };
+		D3CE635BD04C6748CEBDC93C4A9BF675 /* SAWebViewController+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = D9ED052D310EBB6D15EF9C73D8B5AF1D /* SAWebViewController+Ext.h */; };
+		D7989F600380C4D1B909CBC709489A14 /* JSAction.h in Headers */ = {isa = PBXBuildFile; fileRef = EA04F071097A551A775097ED55602983 /* JSAction.h */; };
+		D7D4796DDD573A70F2E17201BEB5E186 /* NSURL+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1D2B2B4FB91EF6D7EFE39858519935 /* NSURL+Extensions.m */; };
 		D8C3166B3D68BD613E303E315C34729E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0520E293BE0A02F08D4FA08473877AAD /* UIKit.framework */; };
 		DA501ABF2A3E9D7F9CA76662B3BA4A42 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFE7B02A5E982238B72AD5B196C4B4C /* WebViewJavascriptBridge.h */; };
-		DACDF99B8A552E848FE5A2095B7105BE /* JSActionModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2CADCE6E23A8E177B418012CE0384C /* JSActionModule.h */; };
-		DDD5DB8A80935FC7051BBA460E1DCB9A /* UIViewController+BarColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0EA4078D486343A023303E1D27A003 /* UIViewController+BarColor.h */; };
 		DFA5717B73D2FF9225B76E96F03294DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61EFA73155E0795A404885DD1C67CC6 /* Foundation.framework */; };
+		E4C5D334289FC4286E6CB2073B758273 /* JSActionModuleBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7279FD767EC8E18EDCD667692B7750 /* JSActionModuleBase.h */; };
 		E68A3E8067FBA18C07871C65C86F9BE6 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62852559BD854AEB176E14C32BDD31 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E8437415B413CBB839B07542BE9FF893 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 233DFFE20E9B7CC62AAC5A4BBD544ABD /* README.md */; };
-		EC462ED24D548780C5B020C71DAFC300 /* JSActionModuleBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CE9F50810D5DC013ECE6C7AB233A7F /* JSActionModuleBase.h */; };
-		F2E3D249F3DFF6C3810D78C080A69C68 /* JSActionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB957239D52253C9C283115446ADEEF /* JSActionModule.m */; };
 		F366BAC874407DAF8AEC428444A1F4FE /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = AD284ACCCD1DAD748FB2C2D55E1F4DC3 /* UIColor+HexString.h */; };
-		F57C32F1F15A23FB0F58B5634387AD6F /* UIViewController+BarColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1550492D1360171FE395859A276054C0 /* UIViewController+BarColor.m */; };
+		F6F3EB30D333FD2A699F631173609C65 /* SAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F5449CEC0210D5E1B983DDA7828EB6 /* SAWebViewController.m */; };
+		FA4DACB474B390238602655BF5CB372C /* JSActionModuleStock.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC9B00040CCB248F6B2DEA8D6C03614 /* JSActionModuleStock.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B22EC56566EE70ABC6358D36E887B03 /* PBXContainerItemProxy */ = {
+		31E42E4715BB905F0BA9CD0E6F0F44A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C37A59BBD01B4E6FC9409A1246665AB0;
 			remoteInfo = "UIColor-HexString";
 		};
-		37A0F8A73226F34B5441C3AF9BC3E482 /* PBXContainerItemProxy */ = {
+		3A0D4E72AA428C83DCFB56F11C0589E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20C1240A78619278DD2ECFDDB27058ED;
+			remoteGlobalIDString = C37A59BBD01B4E6FC9409A1246665AB0;
+			remoteInfo = "UIColor-HexString";
+		};
+		5678A93C3CC32D814728C9838C9ABE6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D38C5E3E86344FDCB49C98E6E179FB6;
+			remoteInfo = WebViewJavascriptBridge;
+		};
+		9D5ABA147DED40B40D489C52D22D8006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B5D98CA3FA449A42053A0A3B74275F5;
 			remoteInfo = "EMWebApp-EMWebApp";
 		};
-		6CA078062928DE3487A709871547DECD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C37A59BBD01B4E6FC9409A1246665AB0;
-			remoteInfo = "UIColor-HexString";
-		};
-		7990145F1AF53ABE37B546CC4548A96A /* PBXContainerItemProxy */ = {
+		CAA71CD9D269CC67A0FF876550E60969 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4D38C5E3E86344FDCB49C98E6E179FB6;
 			remoteInfo = WebViewJavascriptBridge;
 		};
-		9B00CDB1B593C174031FB8FA24798494 /* PBXContainerItemProxy */ = {
+		D4D45A129D162F8BCE9FD6CE0EBFB067 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6051458ADF85A87E50CC0A5102B47339;
+			remoteGlobalIDString = C4CB20F43942B3F678DDD75F968E9FEC;
 			remoteInfo = EMWebApp;
-		};
-		E1375C9E38D8155331DD2637EDAD22AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D38C5E3E86344FDCB49C98E6E179FB6;
-			remoteInfo = WebViewJavascriptBridge;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04CE9F50810D5DC013ECE6C7AB233A7F /* JSActionModuleBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleBase.h; sourceTree = "<group>"; };
 		0520E293BE0A02F08D4FA08473877AAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		08C0F239C8A312B91F7724ED5B2DC7FD /* libPods-EMWebApp_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMWebApp_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0973AD1917A003047CD219D4AB7B07AD /* libEMWebApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEMWebApp.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BD3E44CB78AD1B3B0B87BB5FF12F290 /* SAWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAWebViewController.h; sourceTree = "<group>"; };
-		133C58D5F551E6687A736FA7B2878A84 /* EMWebApp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMWebApp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		1550492D1360171FE395859A276054C0 /* UIViewController+BarColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarColor.m"; sourceTree = "<group>"; };
-		1A298778C50C71923DBD2B8FB212A414 /* SAWebViewController+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAWebViewController+Ext.h"; sourceTree = "<group>"; };
+		16E0A8F8ECC2DCA16635FC764C3A7F72 /* UINavigationBar+EMGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+EMGradient.h"; sourceTree = "<group>"; };
 		1B3F065F50C0AEA72D4910EDEBD378D8 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
 		1D9A9EC1592F1AF4314F09FBD8E17997 /* libUIColor-HexString.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIColor-HexString.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E05EADDB7E87E020DC73F0DB2D1C970 /* Pods-EMWebApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		233DFFE20E9B7CC62AAC5A4BBD544ABD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		274D0CC0E161C6FC4A8D95E4DAF02144 /* libWebViewJavascriptBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebViewJavascriptBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		28FC8E0234F00264EFE4CD2B0B50F5D5 /* NSURL+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extensions.m"; sourceTree = "<group>"; };
-		2EFBB6E1C5677686049C300A84C5FE81 /* JSActionModuleStock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleStock.h; sourceTree = "<group>"; };
-		318A6ADDC8DDB66CB73EAE57D45B9C8C /* SAWebViewController+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAWebViewController+Ext.m"; sourceTree = "<group>"; };
+		2AC08733C8334E98367A99F40E73CCB0 /* JSActionModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModule.h; sourceTree = "<group>"; };
+		32A39F6011E289988C813D8EA66E37F7 /* JSActionModuleLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleLoader.h; sourceTree = "<group>"; };
 		36ED17E0D681E11FF6A32FD51B0B2D02 /* EMWebApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMWebApp-prefix.pch"; sourceTree = "<group>"; };
 		3B5D23715BC70EB1C71012921B9F42F9 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
-		3E0EA4078D486343A023303E1D27A003 /* UIViewController+BarColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarColor.h"; sourceTree = "<group>"; };
-		565DEF73E3F7E0D6BE09CD3148571C3F /* UINavigationBar+EMGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+EMGradient.h"; sourceTree = "<group>"; };
-		5A2CADCE6E23A8E177B418012CE0384C /* JSActionModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModule.h; sourceTree = "<group>"; };
-		62D5D45E7535F864A28A8291118ADCD5 /* JSAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSAction.h; sourceTree = "<group>"; };
-		650979CF402B8BA704188ED18EF5EA6A /* SAWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAWebViewController.m; sourceTree = "<group>"; };
-		6CB957239D52253C9C283115446ADEEF /* JSActionModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModule.m; sourceTree = "<group>"; };
-		6EB617EE8302742F801193E3B749CFBD /* JSActionModuleLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleLoader.h; sourceTree = "<group>"; };
+		3F63C7D8B4793D63D27ED190F2A30B79 /* libEMWebApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEMWebApp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		402722070F6B9D0E0C5771A9268A6AC6 /* EMWebApp-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EMWebApp-Private.xcconfig"; sourceTree = "<group>"; };
+		40F5449CEC0210D5E1B983DDA7828EB6 /* SAWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAWebViewController.m; sourceTree = "<group>"; };
+		45FD3E2A228E058FF833488A3001A11B /* UIImage+JTKGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTKGradient.h"; sourceTree = "<group>"; };
+		48F1527DC3DB73AC8FC781C10FBF89E0 /* UIImage+JTKGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTKGradient.m"; sourceTree = "<group>"; };
+		493A4B7FF24E47A7C2831FA46251E20E /* EMWebApp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMWebApp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A085F05EA9B43E0D456537B14313D3D /* NSURL+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extensions.h"; sourceTree = "<group>"; };
+		5567617A31055CFE3EE5DEE8A5AB7F79 /* JSActionModuleLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleLoader.m; sourceTree = "<group>"; };
+		62B7CB779B9A3196D2F6A0CE40B789A8 /* JSActionModuleShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleShare.h; sourceTree = "<group>"; };
+		6F1D2B2B4FB91EF6D7EFE39858519935 /* NSURL+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extensions.m"; sourceTree = "<group>"; };
 		70C44980B95A875E8D5EEC784AC4C3E8 /* WebViewJavascriptBridge-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WebViewJavascriptBridge-Private.xcconfig"; sourceTree = "<group>"; };
+		768D768A7992AC69571AC2EC384A3CC9 /* JSActionModuleStock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleStock.m; sourceTree = "<group>"; };
 		77ABE99B65F034A4B74DD12494B62180 /* UIColor-HexString-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-HexString-Private.xcconfig"; sourceTree = "<group>"; };
+		790F9117E8ADF6CB809CE5CE9D596F22 /* UIViewController+BarColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarColor.h"; sourceTree = "<group>"; };
+		7AA0816CFB120523D289A61A108BA4AA /* UINavigationBar+EMGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+EMGradient.m"; sourceTree = "<group>"; };
+		7B4EDF25091E2F12E6CF6A57B898C369 /* UIWebView+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Ext.m"; sourceTree = "<group>"; };
 		804F8726A46C316FEBD0065264798A46 /* Pods-EMWebApp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMWebApp_Example-dummy.m"; sourceTree = "<group>"; };
 		83FF3CE29327F98DA88B8B22CD6CCD1A /* UIColor-HexString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-HexString-prefix.pch"; sourceTree = "<group>"; };
+		8B53143A3486C78E587377DF83BA852E /* JSActionModuleShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleShare.m; sourceTree = "<group>"; };
 		8DA35BDF3CFB40B0B42F4F0C3E491A22 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebViewJavascriptBridge.js.txt; path = WebViewJavascriptBridge/WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
-		9070D0713E31442397D70BF85BCCB89A /* EMWebApp-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EMWebApp-Private.xcconfig"; sourceTree = "<group>"; };
 		93797311750EB3054BF0F8D158CC2739 /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+		94B740E01BB91999002C95E1 /* SAWebViewController+Share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SAWebViewController+Share.h"; sourceTree = "<group>"; };
+		94B740E11BB91999002C95E1 /* SAWebViewController+Share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SAWebViewController+Share.m"; sourceTree = "<group>"; };
 		9D0986457D3C04543DEB3EEE00CA4AA7 /* WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.xcconfig; sourceTree = "<group>"; };
-		A5F41931A12E6C0F9412C9CD436F84C8 /* NSURL+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extensions.h"; sourceTree = "<group>"; };
+		A5BF32BB56897DC8ADE1B8E73E00250E /* EMWebApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMWebApp.h; sourceTree = "<group>"; };
 		A61EFA73155E0795A404885DD1C67CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A6ABFC29A3E176879E803FD72158F490 /* JSAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSAction.m; sourceTree = "<group>"; };
-		A8C13414CA691B3B45F84B6C1E204E92 /* JSActionModuleStock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleStock.m; sourceTree = "<group>"; };
+		AA527C39A1B37446D4A4CF652E104B89 /* JSActionModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModule.m; sourceTree = "<group>"; };
 		AB62852559BD854AEB176E14C32BDD31 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		AD284ACCCD1DAD748FB2C2D55E1F4DC3 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		B237E1D839A051237EC5AC52EF066C90 /* UIColor-HexString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-HexString-dummy.m"; sourceTree = "<group>"; };
-		B67B4B4F609935297D2F4F40EC2D5221 /* EMWebApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMWebApp-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCFE7B02A5E982238B72AD5B196C4B4C /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		C1345F9DB15417F98DAA6AE708749DEB /* UIImage+JTKGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTKGradient.h"; sourceTree = "<group>"; };
-		C85BFB051F5CA5032A9742222BE15C0F /* EMWebApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMWebApp.h; sourceTree = "<group>"; };
+		BE2884E1F897627DC3C1964A0F6C4F63 /* UIViewController+BarColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarColor.m"; sourceTree = "<group>"; };
+		C12D705359E408A9044A7BA207E96454 /* JSActionModuleBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleBase.m; sourceTree = "<group>"; };
+		C6F40D28AE880367B266206657131AA8 /* JSAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSAction.m; sourceTree = "<group>"; };
+		CA0C4A670AE76B6C14286353FD5F7A77 /* UIWebView+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Ext.h"; sourceTree = "<group>"; };
 		CC06973264F1F0CC94AF0BC815BC97BE /* EMWebApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMWebApp.xcconfig; sourceTree = "<group>"; };
-		D425D471C040A824F51685C60E6862C6 /* UIImage+JTKGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTKGradient.m"; sourceTree = "<group>"; };
-		D822B47761416703213FDEE1859F77DA /* JSActionModuleBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleBase.m; sourceTree = "<group>"; };
+		D9ED052D310EBB6D15EF9C73D8B5AF1D /* SAWebViewController+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAWebViewController+Ext.h"; sourceTree = "<group>"; };
+		E1AD2634EF75AFF625C83EEAAE7E556B /* SAWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAWebViewController.h; sourceTree = "<group>"; };
 		E3805B87862B84EDBED347369100A923 /* UIColor-HexString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-HexString.xcconfig"; sourceTree = "<group>"; };
-		E76F8300E4D0B4ACFAF6D732E44A039C /* UIWebView+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Ext.h"; sourceTree = "<group>"; };
 		E78F69DF6FFD8A36020C378ED38175BF /* Pods-EMWebApp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMWebApp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8F417F1AC78F0EEB267422EEEC4D73F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA04F071097A551A775097ED55602983 /* JSAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSAction.h; sourceTree = "<group>"; };
 		EB131F247F9295765DC31387E30982A5 /* Pods-EMWebApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMWebApp_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F2D1B99F0EA18A9179D65EA9553E7FEF /* JSActionModuleLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSActionModuleLoader.m; sourceTree = "<group>"; };
-		F884D1A8052079A040BC27DC06705845 /* UIWebView+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Ext.m"; sourceTree = "<group>"; };
+		FA0642E9DD23F64D3C767628ACE7D5AF /* EMWebApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMWebApp-dummy.m"; sourceTree = "<group>"; };
+		FA642E459683C407844E291D6EFE31F5 /* SAWebViewController+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAWebViewController+Ext.m"; sourceTree = "<group>"; };
+		FA7279FD767EC8E18EDCD667692B7750 /* JSActionModuleBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleBase.h; sourceTree = "<group>"; };
 		FA78178019106F339ACCF3956E6158AE /* Pods-EMWebApp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMWebApp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB1C43C474F75310D2E575F19B20BE4A /* Pods-EMWebApp_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMWebApp_Example-resources.sh"; sourceTree = "<group>"; };
-		FFDCCD58FB74F959B3458A09B608E569 /* UINavigationBar+EMGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+EMGradient.m"; sourceTree = "<group>"; };
+		FBC9B00040CCB248F6B2DEA8D6C03614 /* JSActionModuleStock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSActionModuleStock.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,19 +180,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4654943ADF7264EE7E4F90E82F232446 /* Frameworks */ = {
+		871E1B6E98C7833E78908AD997331C05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5F06F8F5103B9A63764CD0046C9113 /* Foundation.framework in Frameworks */,
-				D80662E05D6FD52F3D39FF2319378B17 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86261BFEE548C2228E3A6B8CE9626E9F /* Frameworks */ = {
+		B80BFDD0A03B8A4636A95A52571D7B6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8AC31D59C5853256D9FCF45DE953FF /* Foundation.framework in Frameworks */,
+				A0D07E80892639A6E72F11B575CFDEE3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +207,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0469C242E783976E21F9975E5F388102 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				50EF76E3282AFE4DC340909F193B857C /* UIImageGradient */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
 		05782190AC5B8A35EE681A740B3B0EB6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,12 +223,15 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		300232135A45A4988317C337FCF812FE /* Vendor */ = {
+		402C61E356124190CED14EFBC6A64715 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				B3AA049B603BC8EA86D66AABDB28C268 /* UIImageGradient */,
+				4A085F05EA9B43E0D456537B14313D3D /* NSURL+Extensions.h */,
+				6F1D2B2B4FB91EF6D7EFE39858519935 /* NSURL+Extensions.m */,
+				16E0A8F8ECC2DCA16635FC764C3A7F72 /* UINavigationBar+EMGradient.h */,
+				7AA0816CFB120523D289A61A108BA4AA /* UINavigationBar+EMGradient.m */,
 			);
-			path = Vendor;
+			path = utils;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -221,6 +240,24 @@
 				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50EF76E3282AFE4DC340909F193B857C /* UIImageGradient */ = {
+			isa = PBXGroup;
+			children = (
+				E8F417F1AC78F0EEB267422EEEC4D73F /* README.md */,
+				45FD3E2A228E058FF833488A3001A11B /* UIImage+JTKGradient.h */,
+				48F1527DC3DB73AC8FC781C10FBF89E0 /* UIImage+JTKGradient.m */,
+			);
+			path = UIImageGradient;
+			sourceTree = "<group>";
+		};
+		6A9E2E4A8B8585F788683926148475CA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C975525096CAFAD1A2972D37CE25A /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -246,23 +283,29 @@
 			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
-		8D4F75FEECBEF21D61B37A58C9D209B4 /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				A5F41931A12E6C0F9412C9CD436F84C8 /* NSURL+Extensions.h */,
-				28FC8E0234F00264EFE4CD2B0B50F5D5 /* NSURL+Extensions.m */,
-				565DEF73E3F7E0D6BE09CD3148571C3F /* UINavigationBar+EMGradient.h */,
-				FFDCCD58FB74F959B3458A09B608E569 /* UINavigationBar+EMGradient.m */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
 		900BCF4A4FA0E0EC0004668189CD89CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				8DA35BDF3CFB40B0B42F4F0C3E491A22 /* WebViewJavascriptBridge.js.txt */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		94B740DE1BB9196D002C95E1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				94B740DF1BB9197B002C95E1 /* Share */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		94B740DF1BB9197B002C95E1 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				94B740E01BB91999002C95E1 /* SAWebViewController+Share.h */,
+				94B740E11BB91999002C95E1 /* SAWebViewController+Share.m */,
+			);
+			path = Share;
 			sourceTree = "<group>";
 		};
 		950CCD025E2E402E5354538393F330EE /* Support Files */ = {
@@ -286,50 +329,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		98944A2E4848011B8878E02D42BB147B /* Classes */ = {
+		986E2F4DB62C3BBA13B7DED2C5A34FEF /* BaseModule */ = {
 			isa = PBXGroup;
 			children = (
-				C85BFB051F5CA5032A9742222BE15C0F /* EMWebApp.h */,
-				62D5D45E7535F864A28A8291118ADCD5 /* JSAction.h */,
-				A6ABFC29A3E176879E803FD72158F490 /* JSAction.m */,
-				5A2CADCE6E23A8E177B418012CE0384C /* JSActionModule.h */,
-				6CB957239D52253C9C283115446ADEEF /* JSActionModule.m */,
-				04CE9F50810D5DC013ECE6C7AB233A7F /* JSActionModuleBase.h */,
-				D822B47761416703213FDEE1859F77DA /* JSActionModuleBase.m */,
-				6EB617EE8302742F801193E3B749CFBD /* JSActionModuleLoader.h */,
-				F2D1B99F0EA18A9179D65EA9553E7FEF /* JSActionModuleLoader.m */,
-				2EFBB6E1C5677686049C300A84C5FE81 /* JSActionModuleStock.h */,
-				A8C13414CA691B3B45F84B6C1E204E92 /* JSActionModuleStock.m */,
-				0BD3E44CB78AD1B3B0B87BB5FF12F290 /* SAWebViewController.h */,
-				650979CF402B8BA704188ED18EF5EA6A /* SAWebViewController.m */,
-				1A298778C50C71923DBD2B8FB212A414 /* SAWebViewController+Ext.h */,
-				318A6ADDC8DDB66CB73EAE57D45B9C8C /* SAWebViewController+Ext.m */,
-				3E0EA4078D486343A023303E1D27A003 /* UIViewController+BarColor.h */,
-				1550492D1360171FE395859A276054C0 /* UIViewController+BarColor.m */,
-				E76F8300E4D0B4ACFAF6D732E44A039C /* UIWebView+Ext.h */,
-				F884D1A8052079A040BC27DC06705845 /* UIWebView+Ext.m */,
-				300232135A45A4988317C337FCF812FE /* Vendor */,
-				8D4F75FEECBEF21D61B37A58C9D209B4 /* utils */,
+				FA7279FD767EC8E18EDCD667692B7750 /* JSActionModuleBase.h */,
+				C12D705359E408A9044A7BA207E96454 /* JSActionModuleBase.m */,
+				62B7CB779B9A3196D2F6A0CE40B789A8 /* JSActionModuleShare.h */,
+				8B53143A3486C78E587377DF83BA852E /* JSActionModuleShare.m */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B3052F51890342D58DF47B477AF29564 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				98944A2E4848011B8878E02D42BB147B /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		B3AA049B603BC8EA86D66AABDB28C268 /* UIImageGradient */ = {
-			isa = PBXGroup;
-			children = (
-				233DFFE20E9B7CC62AAC5A4BBD544ABD /* README.md */,
-				C1345F9DB15417F98DAA6AE708749DEB /* UIImage+JTKGradient.h */,
-				D425D471C040A824F51685C60E6862C6 /* UIImage+JTKGradient.m */,
-			);
-			path = UIImageGradient;
+			path = BaseModule;
 			sourceTree = "<group>";
 		};
 		C409B9222C5E59EF4A35F5921F07B7F4 /* Support Files */ = {
@@ -347,8 +355,8 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				133C58D5F551E6687A736FA7B2878A84 /* EMWebApp.bundle */,
-				0973AD1917A003047CD219D4AB7B07AD /* libEMWebApp.a */,
+				493A4B7FF24E47A7C2831FA46251E20E /* EMWebApp.bundle */,
+				3F63C7D8B4793D63D27ED190F2A30B79 /* libEMWebApp.a */,
 				08C0F239C8A312B91F7724ED5B2DC7FD /* libPods-EMWebApp_Example.a */,
 				1D9A9EC1592F1AF4314F09FBD8E17997 /* libUIColor-HexString.a */,
 				274D0CC0E161C6FC4A8D95E4DAF02144 /* libWebViewJavascriptBridge.a */,
@@ -368,7 +376,7 @@
 		D1972A7D0D5E5B3B6B74701B44BF90D5 /* EMWebApp */ = {
 			isa = PBXGroup;
 			children = (
-				B3052F51890342D58DF47B477AF29564 /* Pod */,
+				6A9E2E4A8B8585F788683926148475CA /* Pod */,
 				D949489D0C30A48EA511E8425044F44F /* Support Files */,
 			);
 			name = EMWebApp;
@@ -379,12 +387,40 @@
 			isa = PBXGroup;
 			children = (
 				CC06973264F1F0CC94AF0BC815BC97BE /* EMWebApp.xcconfig */,
-				9070D0713E31442397D70BF85BCCB89A /* EMWebApp-Private.xcconfig */,
-				B67B4B4F609935297D2F4F40EC2D5221 /* EMWebApp-dummy.m */,
+				402722070F6B9D0E0C5771A9268A6AC6 /* EMWebApp-Private.xcconfig */,
+				FA0642E9DD23F64D3C767628ACE7D5AF /* EMWebApp-dummy.m */,
 				36ED17E0D681E11FF6A32FD51B0B2D02 /* EMWebApp-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EMWebApp";
+			sourceTree = "<group>";
+		};
+		DC5C975525096CAFAD1A2972D37CE25A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF32BB56897DC8ADE1B8E73E00250E /* EMWebApp.h */,
+				EA04F071097A551A775097ED55602983 /* JSAction.h */,
+				C6F40D28AE880367B266206657131AA8 /* JSAction.m */,
+				2AC08733C8334E98367A99F40E73CCB0 /* JSActionModule.h */,
+				AA527C39A1B37446D4A4CF652E104B89 /* JSActionModule.m */,
+				32A39F6011E289988C813D8EA66E37F7 /* JSActionModuleLoader.h */,
+				5567617A31055CFE3EE5DEE8A5AB7F79 /* JSActionModuleLoader.m */,
+				FBC9B00040CCB248F6B2DEA8D6C03614 /* JSActionModuleStock.h */,
+				768D768A7992AC69571AC2EC384A3CC9 /* JSActionModuleStock.m */,
+				E1AD2634EF75AFF625C83EEAAE7E556B /* SAWebViewController.h */,
+				40F5449CEC0210D5E1B983DDA7828EB6 /* SAWebViewController.m */,
+				D9ED052D310EBB6D15EF9C73D8B5AF1D /* SAWebViewController+Ext.h */,
+				FA642E459683C407844E291D6EFE31F5 /* SAWebViewController+Ext.m */,
+				790F9117E8ADF6CB809CE5CE9D596F22 /* UIViewController+BarColor.h */,
+				BE2884E1F897627DC3C1964A0F6C4F63 /* UIViewController+BarColor.m */,
+				CA0C4A670AE76B6C14286353FD5F7A77 /* UIWebView+Ext.h */,
+				7B4EDF25091E2F12E6CF6A57B898C369 /* UIWebView+Ext.m */,
+				94B740DE1BB9196D002C95E1 /* Modules */,
+				986E2F4DB62C3BBA13B7DED2C5A34FEF /* BaseModule */,
+				0469C242E783976E21F9975E5F388102 /* Vendor */,
+				402C61E356124190CED14EFBC6A64715 /* utils */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F0D92DDC3653DFE71D629A02150B3931 /* Targets Support Files */ = {
@@ -422,31 +458,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2738513E86F844BAE3B7C4926B5AD6BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B740E21BB91999002C95E1 /* SAWebViewController+Share.h in Headers */,
+				B77A497BAB734146E1F7D4C9842C0055 /* EMWebApp.h in Headers */,
+				D7989F600380C4D1B909CBC709489A14 /* JSAction.h in Headers */,
+				6F056A3CE3BDE779AF11A4F033CF0BAB /* JSActionModule.h in Headers */,
+				E4C5D334289FC4286E6CB2073B758273 /* JSActionModuleBase.h in Headers */,
+				9A04B6F13CB683510195A25004862334 /* JSActionModuleLoader.h in Headers */,
+				CD1028DE1C9D19A8679429F3D68D7090 /* JSActionModuleShare.h in Headers */,
+				FA4DACB474B390238602655BF5CB372C /* JSActionModuleStock.h in Headers */,
+				4DA628E73E82BCDBDC781D9F34347BF5 /* NSURL+Extensions.h in Headers */,
+				D3CE635BD04C6748CEBDC93C4A9BF675 /* SAWebViewController+Ext.h in Headers */,
+				56B3E1AD0DA11DC8ED7CF16F965EC251 /* SAWebViewController.h in Headers */,
+				755D085AF53C18E30D1CB2D6E5DB4022 /* UIImage+JTKGradient.h in Headers */,
+				9FA75C01E8B75BA3E7B0C3294BFABDAF /* UINavigationBar+EMGradient.h in Headers */,
+				0DB4E729B80E344F2FFAA1BE3F17FBB6 /* UIViewController+BarColor.h in Headers */,
+				225DF74EA27DBD87EFF71DFF0EBB1D48 /* UIWebView+Ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DE95F2D9AA1E0D6A5BD2CDA8AD5DA63 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F366BAC874407DAF8AEC428444A1F4FE /* UIColor+HexString.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		439EE57CC1B61A3FDE27000B638A1F4B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05161C35359B92CD285CFC8C682A9B53 /* EMWebApp.h in Headers */,
-				97BDA41370130BDDC7DCD541C116BCEE /* JSAction.h in Headers */,
-				DACDF99B8A552E848FE5A2095B7105BE /* JSActionModule.h in Headers */,
-				EC462ED24D548780C5B020C71DAFC300 /* JSActionModuleBase.h in Headers */,
-				CB11A4536A7EFEB0F8E5453BF915F161 /* JSActionModuleLoader.h in Headers */,
-				09670FCB4CF44067B8E42FBD6435B593 /* JSActionModuleStock.h in Headers */,
-				6DDBD3E1C75CA897CDB1076CE699F50B /* NSURL+Extensions.h in Headers */,
-				35C4E3833A5A58A6262D7E234C0C79D1 /* SAWebViewController+Ext.h in Headers */,
-				2240B1E852BC3B57FD6C153B921F06BA /* SAWebViewController.h in Headers */,
-				51C0C06844653C796539E3633D4562C3 /* UIImage+JTKGradient.h in Headers */,
-				7A4C4D979995B758E4AA10DB301CC10F /* UINavigationBar+EMGradient.h in Headers */,
-				DDD5DB8A80935FC7051BBA460E1DCB9A /* UIViewController+BarColor.h in Headers */,
-				3C84AA54FBE0C2A2EE857C4535243882 /* UIWebView+Ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,23 +499,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		20C1240A78619278DD2ECFDDB27058ED /* EMWebApp-EMWebApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66A8B25904913113AD4963D081C8418B /* Build configuration list for PBXNativeTarget "EMWebApp-EMWebApp" */;
-			buildPhases = (
-				F9B7E87DE04201A4978B2D65566FCAC6 /* Sources */,
-				86261BFEE548C2228E3A6B8CE9626E9F /* Frameworks */,
-				BC8A27521992E1C251BB2EE0589BC0DE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "EMWebApp-EMWebApp";
-			productName = "EMWebApp-EMWebApp";
-			productReference = 133C58D5F551E6687A736FA7B2878A84 /* EMWebApp.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		4D38C5E3E86344FDCB49C98E6E179FB6 /* WebViewJavascriptBridge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D789F94732E2249E76FF10ABCD78527F /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
@@ -495,25 +516,22 @@
 			productReference = 274D0CC0E161C6FC4A8D95E4DAF02144 /* libWebViewJavascriptBridge.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6051458ADF85A87E50CC0A5102B47339 /* EMWebApp */ = {
+		7B5D98CA3FA449A42053A0A3B74275F5 /* EMWebApp-EMWebApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D69F447423B75F1915500E43FE0D54A5 /* Build configuration list for PBXNativeTarget "EMWebApp" */;
+			buildConfigurationList = 475F0FA57019FEE7747508F276F75101 /* Build configuration list for PBXNativeTarget "EMWebApp-EMWebApp" */;
 			buildPhases = (
-				CD996956F1BA11E138CDCE41C6873841 /* Sources */,
-				4654943ADF7264EE7E4F90E82F232446 /* Frameworks */,
-				439EE57CC1B61A3FDE27000B638A1F4B /* Headers */,
+				461604C83A662F1260CDE5D9088A15D4 /* Sources */,
+				871E1B6E98C7833E78908AD997331C05 /* Frameworks */,
+				CA4E718C8970D2360C3992E664CC3F9A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C68A436FA5EBE4DBF68ACD1C7A40D2D4 /* PBXTargetDependency */,
-				5EA9ACDCC796CAAC748F262261A63015 /* PBXTargetDependency */,
-				D5B23CB65C6EA84033FCE224B9AE4F05 /* PBXTargetDependency */,
 			);
-			name = EMWebApp;
-			productName = EMWebApp;
-			productReference = 0973AD1917A003047CD219D4AB7B07AD /* libEMWebApp.a */;
-			productType = "com.apple.product-type.library.static";
+			name = "EMWebApp-EMWebApp";
+			productName = "EMWebApp-EMWebApp";
+			productReference = 493A4B7FF24E47A7C2831FA46251E20E /* EMWebApp.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		C37A59BBD01B4E6FC9409A1246665AB0 /* UIColor-HexString */ = {
 			isa = PBXNativeTarget;
@@ -532,6 +550,26 @@
 			productReference = 1D9A9EC1592F1AF4314F09FBD8E17997 /* libUIColor-HexString.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		C4CB20F43942B3F678DDD75F968E9FEC /* EMWebApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEC7BFCBBA3EBC175795E08A380FE74 /* Build configuration list for PBXNativeTarget "EMWebApp" */;
+			buildPhases = (
+				A5A05D878F3192C4B8BD7C663C76AF35 /* Sources */,
+				B80BFDD0A03B8A4636A95A52571D7B6D /* Frameworks */,
+				2738513E86F844BAE3B7C4926B5AD6BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73922C7344C40E3AFF9BB67700143E74 /* PBXTargetDependency */,
+				506BEA3876283CB206ABCBEBF48550E5 /* PBXTargetDependency */,
+				C99B333C037F0CDFB9B2184FDB4EB5B4 /* PBXTargetDependency */,
+			);
+			name = EMWebApp;
+			productName = EMWebApp;
+			productReference = 3F63C7D8B4793D63D27ED190F2A30B79 /* libEMWebApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		FD472097F9984B2A09D5D3FE748B6161 /* Pods-EMWebApp_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35F15C9A949EC666151DDEAB15B50A88 /* Build configuration list for PBXNativeTarget "Pods-EMWebApp_Example" */;
@@ -542,9 +580,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				77F5C5D9EA44C1FAD80DB6910BB2A912 /* PBXTargetDependency */,
-				DF89AADEBE2E7C582231C5318D78A3D7 /* PBXTargetDependency */,
-				C8AF834C8E1F1110300C442C0194B3E2 /* PBXTargetDependency */,
+				3EB5A7126F9A7734A25085CB0A5870B7 /* PBXTargetDependency */,
+				4B48E0B99F7D6D4084FF91E8C95F8005 /* PBXTargetDependency */,
+				2B21DDA274B63B7BFC4CCEDE9A9C380A /* PBXTargetDependency */,
 			);
 			name = "Pods-EMWebApp_Example";
 			productName = "Pods-EMWebApp_Example";
@@ -572,8 +610,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6051458ADF85A87E50CC0A5102B47339 /* EMWebApp */,
-				20C1240A78619278DD2ECFDDB27058ED /* EMWebApp-EMWebApp */,
+				C4CB20F43942B3F678DDD75F968E9FEC /* EMWebApp */,
+				7B5D98CA3FA449A42053A0A3B74275F5 /* EMWebApp-EMWebApp */,
 				FD472097F9984B2A09D5D3FE748B6161 /* Pods-EMWebApp_Example */,
 				C37A59BBD01B4E6FC9409A1246665AB0 /* UIColor-HexString */,
 				4D38C5E3E86344FDCB49C98E6E179FB6 /* WebViewJavascriptBridge */,
@@ -582,7 +620,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BC8A27521992E1C251BB2EE0589BC0DE /* Resources */ = {
+		CA4E718C8970D2360C3992E664CC3F9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -601,12 +639,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		461604C83A662F1260CDE5D9088A15D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55F9F037144267769C1D62CE0CD2349F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AB5508E34CB0832D09D2B593F2CB5953 /* WebViewJavascriptBridge-dummy.m in Sources */,
 				E68A3E8067FBA18C07871C65C86F9BE6 /* WebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A05D878F3192C4B8BD7C663C76AF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01C7EBEC41A6D22C84D48D8D84C09E5 /* EMWebApp-dummy.m in Sources */,
+				D353FDE0B67BF2550508B3EBAF0E53EE /* JSAction.m in Sources */,
+				670AE941648B5DA6EDE0134B0FD27C37 /* JSActionModule.m in Sources */,
+				5ED9365F444C25848628F7D6D73D4DE3 /* JSActionModuleBase.m in Sources */,
+				2EC721245267B8E5DAA15ED21D012090 /* JSActionModuleLoader.m in Sources */,
+				94B740E31BB91999002C95E1 /* SAWebViewController+Share.m in Sources */,
+				7703B05C0ED49778B592A0222FDDFA0A /* JSActionModuleShare.m in Sources */,
+				00EC73570C634BD9202FBFDF2C539EAE /* JSActionModuleStock.m in Sources */,
+				D7D4796DDD573A70F2E17201BEB5E186 /* NSURL+Extensions.m in Sources */,
+				9CF196C29010E394B6C509FC411B194D /* README.md in Sources */,
+				079A4FA20F11092DFDC3AFBB0BB3831E /* SAWebViewController+Ext.m in Sources */,
+				F6F3EB30D333FD2A699F631173609C65 /* SAWebViewController.m in Sources */,
+				1A9926DEB7DFF5DFD40777EBC035BFFC /* UIImage+JTKGradient.m in Sources */,
+				64C47B8FF9EBD34949C3D4B2D2541590 /* UINavigationBar+EMGradient.m in Sources */,
+				68BA8ACEA153A4F79D801FA441B300B4 /* UIViewController+BarColor.m in Sources */,
+				C381E90E38D2800196183D9E21272E6D /* UIWebView+Ext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,72 +686,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD996956F1BA11E138CDCE41C6873841 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4120C77577FF179935E299303FD27323 /* EMWebApp-dummy.m in Sources */,
-				D005AFDD91AF59FA2EF23D53838790BC /* JSAction.m in Sources */,
-				F2E3D249F3DFF6C3810D78C080A69C68 /* JSActionModule.m in Sources */,
-				034D034DF4A4BA2F8E8F16146743723D /* JSActionModuleBase.m in Sources */,
-				C9955E5692FD536734EECE34D190977C /* JSActionModuleLoader.m in Sources */,
-				737672C3BB7C492FAF45B45ACE1EE73B /* JSActionModuleStock.m in Sources */,
-				0ABE7CDBF470A46A0003C09A200C58DB /* NSURL+Extensions.m in Sources */,
-				E8437415B413CBB839B07542BE9FF893 /* README.md in Sources */,
-				BA27B721A8CC8F97B1B2C9246B32B493 /* SAWebViewController+Ext.m in Sources */,
-				58E6A235D72B5016EDB42F4382E42F56 /* SAWebViewController.m in Sources */,
-				0FD45E372570EECB666F3C1303C99EA9 /* UIImage+JTKGradient.m in Sources */,
-				7C4C60F5C8A3862F4954B90BCE7F9CE7 /* UINavigationBar+EMGradient.m in Sources */,
-				F57C32F1F15A23FB0F58B5634387AD6F /* UIViewController+BarColor.m in Sources */,
-				05D69D0F80F2D2A1C0D650BA806FE323 /* UIWebView+Ext.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9B7E87DE04201A4978B2D65566FCAC6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5EA9ACDCC796CAAC748F262261A63015 /* PBXTargetDependency */ = {
+		2B21DDA274B63B7BFC4CCEDE9A9C380A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "UIColor-HexString";
-			target = C37A59BBD01B4E6FC9409A1246665AB0 /* UIColor-HexString */;
-			targetProxy = 0B22EC56566EE70ABC6358D36E887B03 /* PBXContainerItemProxy */;
+			name = WebViewJavascriptBridge;
+			target = 4D38C5E3E86344FDCB49C98E6E179FB6 /* WebViewJavascriptBridge */;
+			targetProxy = 5678A93C3CC32D814728C9838C9ABE6E /* PBXContainerItemProxy */;
 		};
-		77F5C5D9EA44C1FAD80DB6910BB2A912 /* PBXTargetDependency */ = {
+		3EB5A7126F9A7734A25085CB0A5870B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EMWebApp;
-			target = 6051458ADF85A87E50CC0A5102B47339 /* EMWebApp */;
-			targetProxy = 9B00CDB1B593C174031FB8FA24798494 /* PBXContainerItemProxy */;
+			target = C4CB20F43942B3F678DDD75F968E9FEC /* EMWebApp */;
+			targetProxy = D4D45A129D162F8BCE9FD6CE0EBFB067 /* PBXContainerItemProxy */;
 		};
-		C68A436FA5EBE4DBF68ACD1C7A40D2D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "EMWebApp-EMWebApp";
-			target = 20C1240A78619278DD2ECFDDB27058ED /* EMWebApp-EMWebApp */;
-			targetProxy = 37A0F8A73226F34B5441C3AF9BC3E482 /* PBXContainerItemProxy */;
-		};
-		C8AF834C8E1F1110300C442C0194B3E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WebViewJavascriptBridge;
-			target = 4D38C5E3E86344FDCB49C98E6E179FB6 /* WebViewJavascriptBridge */;
-			targetProxy = 7990145F1AF53ABE37B546CC4548A96A /* PBXContainerItemProxy */;
-		};
-		D5B23CB65C6EA84033FCE224B9AE4F05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WebViewJavascriptBridge;
-			target = 4D38C5E3E86344FDCB49C98E6E179FB6 /* WebViewJavascriptBridge */;
-			targetProxy = E1375C9E38D8155331DD2637EDAD22AE /* PBXContainerItemProxy */;
-		};
-		DF89AADEBE2E7C582231C5318D78A3D7 /* PBXTargetDependency */ = {
+		4B48E0B99F7D6D4084FF91E8C95F8005 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UIColor-HexString";
 			target = C37A59BBD01B4E6FC9409A1246665AB0 /* UIColor-HexString */;
-			targetProxy = 6CA078062928DE3487A709871547DECD /* PBXContainerItemProxy */;
+			targetProxy = 3A0D4E72AA428C83DCFB56F11C0589E7 /* PBXContainerItemProxy */;
+		};
+		506BEA3876283CB206ABCBEBF48550E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-HexString";
+			target = C37A59BBD01B4E6FC9409A1246665AB0 /* UIColor-HexString */;
+			targetProxy = 31E42E4715BB905F0BA9CD0E6F0F44A0 /* PBXContainerItemProxy */;
+		};
+		73922C7344C40E3AFF9BB67700143E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EMWebApp-EMWebApp";
+			target = 7B5D98CA3FA449A42053A0A3B74275F5 /* EMWebApp-EMWebApp */;
+			targetProxy = 9D5ABA147DED40B40D489C52D22D8006 /* PBXContainerItemProxy */;
+		};
+		C99B333C037F0CDFB9B2184FDB4EB5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewJavascriptBridge;
+			target = 4D38C5E3E86344FDCB49C98E6E179FB6 /* WebViewJavascriptBridge */;
+			targetProxy = CAA71CD9D269CC67A0FF876550E60969 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -777,22 +817,6 @@
 			};
 			name = Debug;
 		};
-		0F7EBFF7CF3CACD3FA328232AA71077F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9070D0713E31442397D70BF85BCCB89A /* EMWebApp-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EMWebApp/EMWebApp-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		18FF5B228488B0F3F7F514499A5C53C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77ABE99B65F034A4B74DD12494B62180 /* UIColor-HexString-Private.xcconfig */;
@@ -825,15 +849,19 @@
 			};
 			name = Release;
 		};
-		3338F98B40C8FA3F7793131C77F469C4 /* Debug */ = {
+		286451AC837841DF10F916D02B903732 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9070D0713E31442397D70BF85BCCB89A /* EMWebApp-Private.xcconfig */;
+			baseConfigurationReference = 402722070F6B9D0E0C5771A9268A6AC6 /* EMWebApp-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = EMWebApp;
+				GCC_PREFIX_HEADER = "Target Support Files/EMWebApp/EMWebApp-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -843,6 +871,34 @@
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/UIColor-HexString/UIColor-HexString-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8DF67ED92F4AFA761A81BE73536C0DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402722070F6B9D0E0C5771A9268A6AC6 /* EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMWebApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B19685F6639FCEE8B154E89642F5D159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402722070F6B9D0E0C5771A9268A6AC6 /* EMWebApp-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EMWebApp/EMWebApp-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -885,9 +941,9 @@
 			};
 			name = Debug;
 		};
-		D43715006B5EF73D8E0165D19108D3E1 /* Release */ = {
+		CD8075E1E92E390A80254205138B3209 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9070D0713E31442397D70BF85BCCB89A /* EMWebApp-Private.xcconfig */;
+			baseConfigurationReference = 402722070F6B9D0E0C5771A9268A6AC6 /* EMWebApp-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = EMWebApp;
@@ -895,23 +951,7 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
-		};
-		DE5DD417BB66714420CD42FD5829D62F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9070D0713E31442397D70BF85BCCB89A /* EMWebApp-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EMWebApp/EMWebApp-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -934,6 +974,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		475F0FA57019FEE7747508F276F75101 /* Build configuration list for PBXNativeTarget "EMWebApp-EMWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8075E1E92E390A80254205138B3209 /* Debug */,
+				8DF67ED92F4AFA761A81BE73536C0DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		569C7CAEBBCCD92287F611ED922AE213 /* Build configuration list for PBXNativeTarget "UIColor-HexString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -943,29 +992,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66A8B25904913113AD4963D081C8418B /* Build configuration list for PBXNativeTarget "EMWebApp-EMWebApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3338F98B40C8FA3F7793131C77F469C4 /* Debug */,
-				D43715006B5EF73D8E0165D19108D3E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D69F447423B75F1915500E43FE0D54A5 /* Build configuration list for PBXNativeTarget "EMWebApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F7EBFF7CF3CACD3FA328232AA71077F /* Debug */,
-				DE5DD417BB66714420CD42FD5829D62F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D789F94732E2249E76FF10ABCD78527F /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01ADB5B9CAE81524C98F1D639C4E0505 /* Debug */,
 				C3A2EADC5ECC72D12471DC0D1805AD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEC7BFCBBA3EBC175795E08A380FE74 /* Build configuration list for PBXNativeTarget "EMWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286451AC837841DF10F916D02B903732 /* Debug */,
+				B19685F6639FCEE8B154E89642F5D159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -30,6 +30,24 @@
 @end
 
 
+////////////////////////////////////
+@interface SAWebViewController(ChangeFontSize)
+
+- (UIBarButtonItem *)showChangeFontSizeItem;
+- (void)changeFontSizeItemAction:(id)sender;
+
+@end
+
+@interface SAWebViewController(Share)
+
+- (UIBarButtonItem *)showShareItem;
+- (void)shareItemAction:(id)sender;
+@end
+
+
+
+////////////////////////////////////
+
 @interface SAWebViewController () <UIWebViewDelegate>
 
 @property (nonatomic, strong) WebViewJavascriptBridge* bridge;
@@ -70,6 +88,7 @@
     [super viewWillAppear:animated];
     [self loadBridge];
     [self.jsLoader attachToWebViewController:self];
+    [self showOptionsMenu];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -107,4 +126,42 @@
     
 }
 
+- (void)showOptionsMenu {
+    UIBarButtonItem *shareItem = [self showShareItem];
+    self.navigationItem.rightBarButtonItem = shareItem;
+}
+
 @end
+
+
+@implementation SAWebViewController(ChangeFontSize)
+
+- (UIBarButtonItem *)showChangeFontSizeItem {
+    UIBarButtonItem *changeFontSizeItem = [[UIBarButtonItem alloc] initWithTitle:@"changeFontSize" style:UIBarButtonItemStyleBordered target:self action:@selector(changeFontSizeItemAction:)];
+    return changeFontSizeItem;
+}
+
+- (void)changeFontSizeItemAction:(id)sender {
+    
+}
+
+@end
+
+@implementation SAWebViewController(Share)
+
+- (UIBarButtonItem *)showShareItem {
+    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithTitle:@"share" style:UIBarButtonItemStyleBordered target:self action:@selector(shareItemAction:)];
+    return shareItem;
+}
+
+- (void)shareItemAction:(id)sender {
+//    [self.jsLoader invoke:<#(NSString *)#> params:<#(NSString *)#> callback:<#(JSValue *)#>]
+//    [self.jsLoader invoke:@"share" params:nil callback:nil];
+    [self.webViewContext evaluateScript:@"goods.dispatchEvent(\"menu:share\")"];
+//    [self.jsLoader invoke:@"document.dispatchEvent()" params:nil callback:nil];
+    
+}
+
+@end
+
+

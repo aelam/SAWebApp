@@ -1,21 +1,47 @@
+//goods.changeNavigationBarColor({
+//    color:"#ff00ff",
+//    success:function(){
 //
-//goods.ready(function() {
-//    alert("em.ready");
+//    },
+//    error:function() {
+//
+//    }
+//
 //});
 //
-//
-//alert(EMJSAPI);
+goods.showOptionsMenu({
+//    menuItems:["changeFontSize","search"],
+//    success:function(){
+//         alert("changeFontSize, success");
+//    },
+//    error:function() {
+//        alert("changeFontSize, error");
+//    }
+    menuItems:["onMenuShare"],
+    success:function(){
+        alert("changeFontSize, success");
+    },
+    error:function() {
+        alert("changeFontSize, error");
+    }
 
-//EMJSAPI.invoke("hideOptionMenu", [],function(){
-//    alert("JS:hideOptionMenu");
-//});
-//
-//
-//EMJSAPI.invoke("hideOptionMenu", [],"a");
-//EMJSAPI.hello();
-EMJSAPI.invoke("xxx","yyy",function(){
-    alert("zzz");
+
 });
+
+
+goods.onMenuShare({
+    url:"http://baidu.com",
+    title:"timeline title",
+    success:function(){
+        alert("onMenuShare, success");
+    },
+    error:function() {
+        alert("onMenuShare, error");
+    }
+});
+
+
+//goods.hello("xxx");
 
 
 console.log("console.log");

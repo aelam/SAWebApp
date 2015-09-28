@@ -1,4 +1,4 @@
-//
+;//
 //  JSActionModuleBase.h
 //  AppSettings
 //
@@ -8,8 +8,14 @@
 
 #import "JSActionModule.h"
 
-@interface JSActionModuleBase : JSActionModule
+@protocol JSActionModuleBase <JSActionModule>
 
 - (void)onMenuShareTimeline;
+- (void)changeNavigationBarColor;
+@end
+
+
+@interface JSActionModuleBase : JSActionModule<JSActionModuleBase>
+
 
 @end

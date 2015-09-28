@@ -259,7 +259,7 @@
         a(d);
         for (var b in d.childNodes) n(d.childNodes[b], a)
       }
-      var k, g, h, r, t = [],
+      var k, g, ƒ, r, t = [],
         J = t.slice,
         z = window.document,
         o = {},
@@ -825,7 +825,7 @@
           return function(g) {
             var h, f = c(g.target).closest(a, k).get(0);
             if (f) return h = c.extend(m(g), {
-              currentTarget: f,
+              ƒ: f,
               liveFired: k
             }), b.apply(f, [h].concat([].slice.call(arguments, 1)))
           }

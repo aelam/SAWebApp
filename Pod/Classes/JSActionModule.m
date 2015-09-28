@@ -11,16 +11,26 @@
 
 @implementation JSActionModule
 
-- (void)onMenuShareTimeline {
-    NSLog(@"%@", NSStringFromSelector(_cmd));
-}
 
-- (void)attachActionsWithWebViewController:(UIViewController<SAWebViewController> *)webViewController {
+- (void)attachActionsWithWebViewController:(SAWebViewController<SAWebViewController> *)webViewController {
+    self.webViewController = webViewController;
 }
 
 - (BOOL)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback {
-    
+    SEL selector = NSSelectorFromString(api);
+    if ([self respondsToSelector:selector]) {
+        [self performSelector:selector withObject:params];
+    }
+    return YES;
 }
+
+- (void)on:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback {
+    SEL selector = NSSelectorFromString(api);
+    if ([self respondsToSelector:selector]) {
+        [self performSelector:selector withObject:params];
+    }
+}
+
 
 //
 //- (void)attachActionsWithWebViewContext:(JSContext *)webViewContext {

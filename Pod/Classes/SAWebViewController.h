@@ -11,15 +11,6 @@
 #import <WebViewJavascriptBridge/WebViewJavascriptBridge.h>
 #import <JavaScriptCore/JavaScriptCore.h>
 
-@protocol EMJSAPIExport <JSExport>
-
-+ (void)invoke:(NSString *)api withParams:(NSDictionary *)params;
-
-JSExportAs(invoke,
-+ (void)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback
-           );
-@end
-
 
 @class JSActionModuleLoader;
 
@@ -40,6 +31,7 @@ JSExportAs(invoke,
 // 显示个股
 // subclass implement
 - (void)openCustomPageWithUserInfo:(NSDictionary *)userInfo;
+- (void)showOptionsMenu;
 
 
 @end

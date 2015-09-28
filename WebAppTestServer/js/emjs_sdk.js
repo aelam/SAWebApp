@@ -1,46 +1,65 @@
 (function() {
+    // API_LIST
+    var api_list = {
+            onMenuShare: "menu:share",
+            onMenuShareTimeline: "menu:share:timeline",
+            onMenuShareAppMessage: "menu:share:appmessage",
+            onMenuShareQQ: "menu:share:qq",
+            onMenuShareWeibo: "menu:share:weiboApp",
+            onMenuShareQZone: "menu:share:QZone",
+            previewImage: "imagePreview",
+            getLocation: "geoLocation",
+            openProductSpecificView: "openProductViewWithPid",
+            addCard: "batchAddCard",
+            openCard: "batchViewCard",
+            chooseWXPay: "getBrandWCPayRequest"
+    }
 
+    // Events
+    var events = document.createEvent('Event');
+    events.initEvent(api_list.onMenuShare, true, true);
 
-//    function connectWebViewJavascriptBridge(callback) {
-//		if (window.WebViewJavascriptBridge) {
-//			callback(WebViewJavascriptBridge)
-//		} else {
-//			document.addEventListener('WebViewJavascriptBridgeReady', function() {
-//				callback(WebViewJavascriptBridge)
-//			}, false)
-//		}
-//	};
+    // Goods
+    var goods = {
+        changeNavigationBarColor: function(a) {
+            invoke(api_list.changeNavigationBarColor, {"color": a.color}, a);
+        },
+        showOptionsMenu:function(a) {
+            invoke(api_list.showOptionsMenu, {"menuItems": a.menuItems}, a);
+        },
+        hideOptionsMenu:function(a) {
+            invoke(api_list.hideOptionsMenu, {"menuItems": a.menuItems}, a);
+        },
 
-	//connectWebViewJavascriptBridge(function(bridge) {
-    //    var uniqueId = 1
-    //
-    //    function log(message, data) {
-    //        var log = document.getElementById('log')
-    //        var el = document.createElement('div')
-    //        el.className = 'logLine'
-    //        el.innerHTML = uniqueId++ + '. ' + message + ':<br/>' + JSON.stringify(data)
-    //        if (log.children.length) {
-    //            log.insertBefore(el, log.children[0])
-    //        }
-    //        else {
-    //            log.appendChild(el)
-    //        }
-    //    }
-    //
-    //    bridge.init(function (message, responseCallback) {
-    //        log('JS got a message', message)
-    //        var data = {'Javascript Responds': 'Wee!'}
-    //        log('JS responding with', data)
-    //        responseCallback(data)
-    //    })
-    //
-    //    bridge.registerHandler('testJavascriptHandler', function (data, responseCallback) {
-    //        log('ObjC called testJavascriptHandler with', data)
-    //        var responseData = {'Javascript Says': 'Right back atcha!'}
-    //        log('JS responding with', responseData)
-    //        responseCallback(responseData)
-    //    })
-    //};
+        onMenuShare: function(a) {
+            on(api_list.onMenuShare,
+                {title: a.title,
+                 url: a.url,
+                 completion:function(){
+                     console.log("onMenuShare:completion");
+                     invoke("share", {title: a.title, url: a.url}, a);
+                 }
+                }, a);
+        },
 
-//    window.goods = window.WebViewJavascriptBridge;
-});
+        dispatchEvent: function() {
+            alert("HELLO");
+           document.dispatchEvent(events);
+        }
+    };
+
+    function invoke(api, args, callback) {
+        EMJSAPI.invoke(api, args, callback);
+    };
+
+    function on(api, args, callback) {
+        console.log("api:" + api + "xxx");
+        document.addEventListener(api, function(){
+            console.log("api:" + api + " yyyy");
+
+            args.completion();
+        }, false);
+    };
+
+    window.goods = goods;
+})();

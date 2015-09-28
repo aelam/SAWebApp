@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/JSActionModuleBase.h
+../../../../../Pod/Classes/BaseModule/JSActionModuleBase.h

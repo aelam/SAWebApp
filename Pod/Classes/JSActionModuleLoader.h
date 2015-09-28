@@ -14,11 +14,25 @@
 @class JSActionModule;
 @class JSContext;
 
+@protocol EMJSAPIExport <JSExport>
+
++ (void)invoke:(NSString *)api withParams:(NSDictionary *)params;
+
+JSExportAs(invoke,
+           + (void)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback
+           );
+@end
+
 
 @protocol JSActionExport <JSExport>
 
+@property (nonatomic, strong) NSMutableArray *modules;
 JSExportAs(invoke,
 - (BOOL)invoke:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback
+);
+
+JSExportAs(on,
+- (void)on:(NSString *)api params:(NSString *)params callback:(JSValue *)jsCallback
 );
 
 @end
